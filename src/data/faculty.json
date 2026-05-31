@@ -1,0 +1,124 @@
+[
+  {
+    "id": "ishvarya",
+    "name": "Dr. Ishvarya",
+    "role": "Expert in Medical Sciences & Chemistry",
+    "subjects": [
+      "Chemistry",
+      "Biology",
+      "Medical Sciences"
+    ],
+    "photo": "https://i.pravatar.cc/400?img=25",
+    "bio": "Dr. Ishvarya is a highly experienced educator specialising in Medical Sciences and Chemistry. With 15+ years of teaching expertise, she has guided countless students to success in NEET and board examinations through her clear, concept-driven approach. Her visual-learning methods make complex biochemistry and organic chemistry both engaging and exam-ready.",
+    "experience": 15,
+    "isAdmin": false,
+    "specializations": [
+      "Organic Chemistry",
+      "Medical Sciences",
+      "NEET Biology",
+      "CBSE Board Preparation"
+    ],
+    "achievements": [
+      "15+ years of teaching excellence in Chemistry and Biology",
+      "Trained numerous NEET qualifiers",
+      "Expert in Medical Sciences and Chemistry education"
+    ]
+  },
+  {
+    "id": "usha",
+    "name": "Usha",
+    "role": "Administrator & Student Counsellor",
+    "subjects": [
+      "Student Counselling",
+      "Administration"
+    ],
+    "photo": "https://i.pravatar.cc/400?img=47",
+    "bio": "Usha is the heart of Aura Academia, bringing over 25 years of experience in academic administration and student counselling. She ensures every student's journey at Aura is smooth, supported, and successful — from enrolment to exam day. Her warm approach and deep understanding of student needs make her the first point of contact for all families.",
+    "experience": 25,
+    "isAdmin": true,
+    "specializations": [
+      "Student Counselling",
+      "Academic Administration",
+      "Career Guidance"
+    ],
+    "achievements": [
+      "25+ years in academic administration",
+      "Guided thousands of students and families through their academic journey",
+      "Expert in student welfare, support systems, and enrolment processes"
+    ]
+  },
+  {
+    "id": "shafee",
+    "name": "Shaik Shafee",
+    "role": "Expert in Physics",
+    "subjects": [
+      "Physics",
+      "Mechanics"
+    ],
+    "photo": "https://i.pravatar.cc/400?img=60",
+    "bio": "Shaik Shafee is a seasoned Physics educator with 15+ years of experience. His deep understanding of Physics concepts and mastery of exam strategy has helped students excel in JEE, NEET, and board examinations consistently. He is renowned for turning abstract physics concepts into clear, exam-winning strategies.",
+    "experience": 15,
+    "isAdmin": false,
+    "specializations": [
+      "Classical Mechanics",
+      "Electromagnetism",
+      "JEE Physics",
+      "NEET Physics"
+    ],
+    "achievements": [
+      "15+ years of Physics teaching excellence",
+      "Expert in JEE and NEET Physics preparation",
+      "Known for making complex concepts accessible and exam-ready"
+    ]
+  },
+  {
+    "id": "raini",
+    "name": "Raini Sreekanth",
+    "role": "Expert in Mathematics",
+    "subjects": [
+      "Mathematics",
+      "Statistics"
+    ],
+    "photo": "https://i.pravatar.cc/400?img=12",
+    "bio": "Raini Sreekanth is a highly accomplished Mathematics educator with over 15 years of experience. His rigorous yet approachable teaching style and masterful command of mathematical concepts make him an exceptional guide for students at all levels — from CBSE and ICSE board examinations to JEE and A-Level Mathematics.",
+    "experience": 15,
+    "isAdmin": false,
+    "specializations": [
+      "Calculus",
+      "Algebra",
+      "JEE Mathematics",
+      "A-Level Mathematics"
+    ],
+    "achievements": [
+      "15+ years of Mathematics teaching excellence",
+      "Proven track record in board and competitive exam results",
+      "Expert in JEE and A-Level Mathematics strategies"
+    ]
+  },
+  {
+    "id": "meena",
+    "name": "Meena",
+    "role": "Expert in Science",
+    "subjects": [
+      "Science",
+      "Physics",
+      "Chemistry",
+      "Biology"
+    ],
+    "photo": "https://i.pravatar.cc/400?img=32",
+    "bio": "Meena is an enthusiastic Science educator with 10 years of experience. Her engaging teaching style and thorough understanding of foundational science concepts make her a favourite among students building their science base. She specialises in making science fun, relatable, and deeply understood.",
+    "experience": 10,
+    "isAdmin": false,
+    "specializations": [
+      "CBSE Science",
+      "Foundational Physics",
+      "Chemistry Basics",
+      "Biology"
+    ],
+    "achievements": [
+      "10 years of dedicated Science teaching",
+      "Specialist in foundational and applied science for Grades 8–10",
+      "Known for engaging and interactive teaching methods"
+    ]
+  }
+]

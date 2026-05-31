@@ -1,0 +1,62 @@
+[
+  {
+    "id": "test-1",
+    "name": "Rahul Sharma",
+    "role": "Grade 12 Student",
+    "course": "CBSE Board Preparation",
+    "rating": 5,
+    "text": "Aura transformed my Physics understanding. The teachers explain concepts so clearly that even the most difficult topics become easy. I scored 98% in my CBSE boards thanks to their guidance!",
+    "photo": "https://i.pravatar.cc/100?img=3",
+    "date": "2024-03-01"
+  },
+  {
+    "id": "test-2",
+    "name": "Maryam Ali",
+    "role": "IGCSE Student",
+    "course": "IGCSE O Level",
+    "rating": 5,
+    "text": "Small batches meant real attention to each student. The IGCSE mock tests prepared me perfectly for the actual exams. I achieved 8 A*s and couldn't be happier!",
+    "photo": "https://i.pravatar.cc/100?img=20",
+    "date": "2024-02-15"
+  },
+  {
+    "id": "test-3",
+    "name": "Sarah Jones",
+    "role": "Alumni",
+    "course": "JEE Preparation",
+    "rating": 5,
+    "text": "The psychometric test helped me find my path. The faculty's dedication and the comprehensive study material made all the difference. I won a full scholarship to my dream university!",
+    "photo": "https://i.pravatar.cc/100?img=45",
+    "date": "2024-01-20"
+  },
+  {
+    "id": "test-4",
+    "name": "Ahmed Hassan",
+    "role": "Parent",
+    "course": "CBSE Grade 10",
+    "rating": 5,
+    "text": "As a parent, I'm extremely satisfied with Aura Academia. My son's confidence and grades have improved dramatically. The teachers are approachable and keep us updated on his progress.",
+    "photo": "https://i.pravatar.cc/100?img=12",
+    "date": "2024-02-28"
+  },
+  {
+    "id": "test-5",
+    "name": "Priya Patel",
+    "role": "NEET Qualifier",
+    "course": "JEE & NEET Preparation",
+    "rating": 5,
+    "text": "The Biology and Chemistry classes by Ishvarya ma'am were exceptional. Her teaching methodology and regular tests helped me crack NEET with a great score. Highly recommended!",
+    "photo": "https://i.pravatar.cc/100?img=32",
+    "date": "2024-03-10"
+  },
+  {
+    "id": "test-6",
+    "name": "Omar Al-Farsi",
+    "role": "A-Level Student",
+    "course": "IGCSE A Level",
+    "rating": 5,
+    "text": "The A-Level Mathematics and Physics coaching is world-class. Sooraj sir and Varsha ma'am make complex concepts simple. I got admission to my top choice university!",
+    "photo": "https://i.pravatar.cc/100?img=60",
+    "date": "2024-02-05"
+  }
+]

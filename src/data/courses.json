@@ -1,0 +1,871 @@
+[
+  {
+    "id": "class-8-mathematics",
+    "title": "Class 8 Mathematics",
+    "description": "Build a strong mathematical foundation with our comprehensive Class 8 Mathematics program. Master algebra, geometry, and problem-solving skills essential for higher grades.",
+    "curriculum": "CBSE/IGCSE",
+    "grade": "Grade 8",
+    "targetAudience": "Students in Grade 8 seeking to excel in Mathematics and build strong fundamentals",
+    "subjects": ["Algebra", "Geometry", "Mensuration", "Data Handling", "Rational Numbers"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday & Wednesday 4:00 PM - 5:30 PM", "Saturday 10:00 AM - 11:30 AM"],
+    "fees": {
+      "amount": 900,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini"],
+    "color": "#10B981",
+    "image": "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=800&q=80",
+    "features": [
+      "Concept-based learning approach",
+      "Regular practice worksheets",
+      "Doubt clearing sessions",
+      "Monthly progress reports",
+      "Olympiad preparation included"
+    ]
+  },
+  {
+    "id": "class-8-science",
+    "title": "Class 8 Science",
+    "description": "Explore the fascinating world of Physics, Chemistry, and Biology with hands-on experiments and interactive learning methods designed for Class 8 students.",
+    "curriculum": "CBSE/IGCSE",
+    "grade": "Grade 8",
+    "targetAudience": "Students in Grade 8 who want to develop scientific thinking and practical knowledge",
+    "subjects": ["Physics", "Chemistry", "Biology", "Scientific Methods", "Lab Experiments"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday & Thursday 4:00 PM - 5:30 PM", "Saturday 2:00 PM - 3:30 PM"],
+    "fees": {
+      "amount": 900,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["meena"],
+    "color": "#3B82F6",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+    "features": [
+      "Practical lab demonstrations",
+      "Interactive experiments",
+      "Visual learning aids",
+      "Science project guidance",
+      "Regular assessments"
+    ]
+  },
+  {
+    "id": "class-9-mathematics",
+    "title": "Class 9 Mathematics",
+    "description": "Master advanced mathematical concepts including polynomials, coordinate geometry, and trigonometry. Perfect preparation for board exams and competitive examinations.",
+    "curriculum": "CBSE/IGCSE",
+    "grade": "Grade 9",
+    "targetAudience": "Grade 9 students aiming for excellence in Mathematics and strong board exam preparation",
+    "subjects": ["Polynomials", "Coordinate Geometry", "Trigonometry", "Statistics", "Probability", "Linear Equations"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday & Wednesday 5:45 PM - 7:15 PM", "Sunday 10:00 AM - 11:30 AM"],
+    "fees": {
+      "amount": 1000,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini"],
+    "color": "#059669",
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80",
+    "features": [
+      "Board exam pattern practice",
+      "Advanced problem-solving techniques",
+      "Weekly mock tests",
+      "Personalized attention",
+      "Competitive exam preparation"
+    ]
+  },
+  {
+    "id": "class-9-science",
+    "title": "Class 9 Science",
+    "description": "Comprehensive science program covering Physics, Chemistry, and Biology with emphasis on conceptual clarity and practical applications for Grade 9 students.",
+    "curriculum": "CBSE/IGCSE",
+    "grade": "Grade 9",
+    "targetAudience": "Grade 9 students seeking in-depth understanding of scientific principles and board exam success",
+    "subjects": ["Physics - Motion & Force", "Chemistry - Atoms & Molecules", "Biology - Cell Structure", "Scientific Research"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday & Thursday 5:45 PM - 7:15 PM", "Sunday 2:00 PM - 3:30 PM"],
+    "fees": {
+      "amount": 1000,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["meena"],
+    "color": "#2563EB",
+    "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80",
+    "features": [
+      "Detailed concept explanations",
+      "Laboratory practical sessions",
+      "Diagram-based learning",
+      "Previous year question practice",
+      "Science fair preparation"
+    ]
+  },
+  {
+    "id": "class-10-mathematics",
+    "title": "Class 10 Mathematics - Board Exam Special",
+    "description": "Intensive board exam preparation for Class 10 Mathematics covering all chapters with special focus on high-weightage topics and scoring techniques.",
+    "curriculum": "CBSE/IGCSE",
+    "grade": "Grade 10",
+    "targetAudience": "Class 10 students preparing for board examinations and aiming for 95%+ scores",
+    "subjects": ["Real Numbers", "Polynomials", "Trigonometry", "Coordinate Geometry", "Statistics", "Probability"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday, Wednesday & Friday 4:00 PM - 6:00 PM", "Saturday 10:00 AM - 1:00 PM"],
+    "fees": {
+      "amount": 1200,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini", "ishvarya"],
+    "color": "#10B981",
+    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&q=80",
+    "features": [
+      "Complete board exam coverage",
+      "Chapter-wise test series",
+      "Previous 10 years papers",
+      "Scoring strategy sessions",
+      "Time management techniques",
+      "Doubt clearing till exams"
+    ]
+  },
+  {
+    "id": "class-10-science",
+    "title": "Class 10 Science - Board Exam Special",
+    "description": "Complete board exam preparation for Class 10 Science with focus on Physics, Chemistry, and Biology. Includes practical exam training and theory mastery.",
+    "curriculum": "CBSE/IGCSE",
+    "grade": "Grade 10",
+    "targetAudience": "Class 10 students targeting excellent board exam results in Science",
+    "subjects": ["Physics", "Chemistry", "Biology", "Practical Experiments", "Diagram Practice"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday, Thursday & Saturday 4:00 PM - 6:00 PM", "Sunday 10:00 AM - 12:00 PM"],
+    "fees": {
+      "amount": 1200,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["shafee", "ishvarya"],
+    "color": "#3B82F6",
+    "image": "https://images.unsplash.com/photo-1564325724739-bae0bd08762c?w=800&q=80",
+    "features": [
+      "Board exam focused teaching",
+      "Practical exam preparation",
+      "Diagram drawing practice",
+      "Important questions coverage",
+      "Revision classes before exams",
+      "Lab manual completion"
+    ]
+  },
+  {
+    "id": "class-11-mathematics",
+    "title": "Class 11 Mathematics - Foundation for JEE/Boards",
+    "description": "Advanced mathematics program for Class 11 covering calculus, 3D geometry, and complex numbers. Dual preparation for boards and JEE Main.",
+    "curriculum": "CBSE/IGCSE",
+    "grade": "Grade 11",
+    "targetAudience": "Class 11 students preparing for board exams and laying foundation for JEE/competitive exams",
+    "subjects": ["Calculus", "3D Geometry", "Trigonometry", "Complex Numbers", "Permutations & Combinations", "Probability"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday, Wednesday & Friday 6:15 PM - 8:15 PM", "Sunday 9:00 AM - 12:00 PM"],
+    "fees": {
+      "amount": 1400,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini"],
+    "color": "#059669",
+    "image": "https://images.unsplash.com/photo-1635372722656-389f87a941b7?w=800&q=80",
+    "features": [
+      "JEE Main pattern questions",
+      "Board exam preparation",
+      "Advanced problem solving",
+      "Weekly assignments",
+      "Competitive exam techniques",
+      "Concept building focus"
+    ]
+  },
+  {
+    "id": "class-11-science",
+    "title": "Class 11 Science - PCB/PCM Foundation",
+    "description": "Comprehensive Class 11 Science program for Physics, Chemistry, and Biology/Computer Science. Strong foundation for NEET/JEE and board exams.",
+    "curriculum": "CBSE/IGCSE",
+    "grade": "Grade 11",
+    "targetAudience": "Class 11 PCB/PCM students preparing for medical/engineering entrance exams and boards",
+    "subjects": ["Physics", "Chemistry", "Biology/Computer Science", "Practical Labs"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday, Thursday & Saturday 6:15 PM - 8:30 PM", "Sunday 2:00 PM - 5:00 PM"],
+    "fees": {
+      "amount": 1400,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["shafee", "ishvarya", "raini"],
+    "color": "#2563EB",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+    "features": [
+      "NEET/JEE syllabus coverage",
+      "Board exam preparation",
+      "Conceptual clarity focus",
+      "Regular practice tests",
+      "Lab practical training",
+      "Entrance exam strategies"
+    ]
+  },
+  {
+    "id": "class-12-mathematics",
+    "title": "Class 12 Mathematics - Board & JEE Advanced",
+    "description": "Elite Class 12 Mathematics program with dual focus on board exam excellence and JEE Advanced preparation. Master calculus, vectors, and probability.",
+    "curriculum": "CBSE/IGCSE",
+    "grade": "Grade 12",
+    "targetAudience": "Class 12 students targeting 95%+ in boards and preparing for JEE Advanced",
+    "subjects": ["Calculus", "Vectors", "3D Geometry", "Probability", "Differential Equations", "Linear Programming"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Daily 3:00 PM - 5:30 PM", "Sunday 9:00 AM - 1:00 PM"],
+    "fees": {
+      "amount": 1500,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini", "ishvarya"],
+    "color": "#10B981",
+    "image": "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=800&q=80",
+    "features": [
+      "Board exam mastery",
+      "JEE Advanced level problems",
+      "Previous year analysis",
+      "Speed and accuracy training",
+      "Formula sheet provided",
+      "Individual doubt sessions"
+    ]
+  },
+  {
+    "id": "class-12-science",
+    "title": "Class 12 Science - Board & NEET/JEE Preparation",
+    "description": "Comprehensive Class 12 Science program covering Physics, Chemistry, and Biology with intensive board and entrance exam preparation.",
+    "curriculum": "CBSE/IGCSE",
+    "grade": "Grade 12",
+    "targetAudience": "Class 12 students preparing for board exams and NEET/JEE entrance examinations",
+    "subjects": ["Physics", "Chemistry", "Biology", "Practical Exams", "Entrance Test Prep"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Daily 3:00 PM - 6:00 PM", "Sunday 2:00 PM - 6:00 PM"],
+    "fees": {
+      "amount": 1500,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["shafee", "ishvarya", "raini"],
+    "color": "#3B82F6",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+    "features": [
+      "Board exam excellence",
+      "NEET/JEE preparation",
+      "Practical exam coaching",
+      "Mock test series",
+      "Revision classes",
+      "Entrance exam strategies"
+    ]
+  },
+  {
+    "id": "jee-preparation",
+    "title": "JEE Main & Advanced - Complete Program",
+    "description": "Intensive 2-year integrated program for JEE Main and JEE Advanced preparation. Expert faculty, comprehensive study material, and proven success track record.",
+    "curriculum": "JEE",
+    "grade": "Grade 11-12",
+    "targetAudience": "Students aspiring for IIT, NIT, and top engineering colleges through JEE Main and JEE Advanced",
+    "subjects": ["Physics", "Chemistry", "Mathematics", "Problem Solving", "Test Strategy"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "24 months",
+    "schedule": ["Daily 3:00 PM - 7:00 PM", "Weekend full-day test series"],
+    "fees": {
+      "amount": 2000,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["shafee", "ishvarya", "raini"],
+    "color": "#F97316",
+    "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
+    "features": [
+      "Complete JEE Main & Advanced syllabus",
+      "Daily practice problems (DPP)",
+      "Weekly full-length mock tests",
+      "All India Test Series (AITS)",
+      "Rank prediction and analysis",
+      "College counseling support",
+      "Study material included",
+      "Doubt clearing sessions",
+      "Previous 15 years JEE papers",
+      "Online test portal access"
+    ],
+    "relatedCourses": ["class-11-mathematics", "class-12-mathematics"]
+  },
+  {
+    "id": "neet-preparation",
+    "title": "NEET - Complete Medical Entrance Program",
+    "description": "Comprehensive 2-year NEET preparation program with expert Biology, Physics, and Chemistry coaching. Proven track record of AIIMS and top medical college selections.",
+    "curriculum": "NEET",
+    "grade": "Grade 11-12",
+    "targetAudience": "Students aspiring for MBBS, BDS, and medical courses through NEET examination",
+    "subjects": ["Physics", "Chemistry", "Biology (Botany & Zoology)", "Medical Entrance Strategy"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "24 months",
+    "schedule": ["Daily 3:00 PM - 7:00 PM", "Weekend full-day test series"],
+    "fees": {
+      "amount": 2000,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["shafee", "ishvarya", "raini"],
+    "color": "#DC2626",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+    "features": [
+      "Complete NEET syllabus coverage",
+      "NCERT-based teaching",
+      "Daily practice problems",
+      "Weekly full-length tests",
+      "All India Mock Test Series",
+      "Biology diagram practice",
+      "Previous year NEET papers",
+      "Medical college counseling",
+      "Study material provided",
+      "Revision and crash courses"
+    ],
+    "relatedCourses": ["class-11-science", "class-12-science"]
+  },
+  {
+    "id": "neet-crash-course",
+    "title": "NEET Crash Course",
+    "description": "Intensive crash course for Class 12 students and NEET repeaters. Rapid revision of high-yield topics, daily mock tests, and targeted exam strategies to maximise your NEET score in a short time.",
+    "curriculum": "NEET",
+    "grade": "Grade 12",
+    "targetAudience": "Class 12 students and NEET repeaters who need intensive, focused preparation to maximise their NEET score quickly",
+    "subjects": ["Physics – High Yield Topics", "Chemistry – Rapid Revision", "Biology – NCERT Mastery", "Mock Test Strategy"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "3 months",
+    "schedule": ["Daily 3:00 PM – 7:00 PM", "Weekend full-day mock tests"],
+    "fees": {
+      "amount": 1800,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["shafee", "ishvarya", "raini"],
+    "color": "#EF4444",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+    "features": [
+      "Rapid full-syllabus NEET revision",
+      "High-yield topic prioritisation",
+      "Daily full-length mock tests with analysis",
+      "NCERT line-by-line Biology coverage",
+      "Previous year NEET paper solutions",
+      "Biology diagram crash revision",
+      "Time management and marking strategies",
+      "Personal score improvement plan"
+    ],
+    "relatedCourses": ["neet-preparation", "class-12-science"]
+  },
+  {
+    "id": "igcse-mathematics",
+    "title": "IGCSE O Level Mathematics",
+    "description": "Cambridge IGCSE Mathematics covers numbers, algebra, coordinate geometry, statistics, probability, and trigonometry. Prepares students for Cambridge O Level exams with a focus on analytical reasoning and problem-solving.",
+    "curriculum": "IGCSE",
+    "grade": "Grade 9–10",
+    "targetAudience": "Students in Grade 9–10 following the Cambridge IGCSE curriculum aiming for strong O Level results",
+    "subjects": ["Number & Algebra", "Coordinate Geometry", "Trigonometry", "Statistics & Probability", "Mensuration"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday & Wednesday 4:30 PM – 6:00 PM", "Saturday 10:00 AM – 11:30 AM"],
+    "fees": {
+      "amount": 1100,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini"],
+    "color": "#059669",
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80",
+    "features": [
+      "Cambridge syllabus aligned teaching",
+      "Past paper practice (10+ years)",
+      "Exam technique and time management",
+      "Grade A* targeted strategies",
+      "Topic-wise doubt clearing sessions",
+      "Monthly progress assessments"
+    ]
+  },
+  {
+    "id": "igcse-sciences",
+    "title": "IGCSE O Level Sciences",
+    "description": "Comprehensive Cambridge IGCSE Science program covering Physics, Chemistry, and Biology. Emphasises conceptual understanding, practical skills, and exam technique for O Level success.",
+    "curriculum": "IGCSE",
+    "grade": "Grade 9–10",
+    "targetAudience": "Grade 9–10 IGCSE students preparing for Cambridge O Level Physics, Chemistry, and Biology",
+    "subjects": ["Physics – Forces, Electricity & Waves", "Chemistry – Atomic Structure & Organic", "Biology – Cells, Genetics & Ecology", "Practical Skills & Lab Work"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday & Thursday 4:30 PM – 6:00 PM", "Saturday 12:00 PM – 1:30 PM"],
+    "fees": {
+      "amount": 1200,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["shafee", "ishvarya"],
+    "color": "#2563EB",
+    "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80",
+    "features": [
+      "All three sciences under one programme",
+      "Cambridge past paper practice",
+      "Practical exam coaching",
+      "Detailed diagram practice",
+      "Grade A* focused teaching",
+      "Regular mock assessments"
+    ]
+  },
+  {
+    "id": "as-level-mathematics",
+    "title": "AS Level Mathematics",
+    "description": "Cambridge AS Level Mathematics covers pure mathematics, statistics, and mechanics. A critical stepping stone for students targeting A Level and university entry, with strong emphasis on analytical thinking.",
+    "curriculum": "AS Level",
+    "grade": "Grade 11",
+    "targetAudience": "Grade 11 students on the Cambridge AS Level pathway aiming for top grades in Mathematics",
+    "subjects": ["Pure Mathematics – Algebra & Functions", "Pure Mathematics – Calculus & Trigonometry", "Statistics – Data & Probability", "Mechanics – Forces & Kinematics"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday, Wednesday & Friday 5:00 PM – 7:00 PM", "Sunday 9:00 AM – 11:00 AM"],
+    "fees": {
+      "amount": 1400,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini"],
+    "color": "#7C3AED",
+    "image": "https://images.unsplash.com/photo-1635372722656-389f87a941b7?w=800&q=80",
+    "features": [
+      "Cambridge AS Level syllabus coverage",
+      "Pure Maths, Statistics & Mechanics",
+      "Past paper practice with mark scheme review",
+      "University application readiness",
+      "Exam technique masterclasses",
+      "Individual doubt clearing"
+    ]
+  },
+  {
+    "id": "as-level-sciences",
+    "title": "AS Level Sciences",
+    "description": "Cambridge AS Level Sciences covering Physics, Chemistry, and Biology. Designed to build the depth of understanding required for further A Level study and university-level science courses.",
+    "curriculum": "AS Level",
+    "grade": "Grade 11",
+    "targetAudience": "Grade 11 students on the Cambridge AS pathway preparing for Physics, Chemistry, or Biology examinations",
+    "subjects": ["Physics – Mechanics, Waves & Electricity", "Chemistry – Inorganic, Organic & Physical", "Biology – Cell Biology, Genetics & Physiology", "Practical Skills"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday, Thursday & Saturday 5:00 PM – 7:30 PM", "Sunday 2:00 PM – 5:00 PM"],
+    "fees": {
+      "amount": 1400,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["shafee", "ishvarya"],
+    "color": "#D97706",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+    "features": [
+      "Cambridge AS Level syllabus aligned",
+      "Practical endorsement preparation",
+      "Structured note-making and revision",
+      "Past paper walkthroughs",
+      "Data analysis and interpretation skills",
+      "University preparation focus"
+    ]
+  },
+  {
+    "id": "a-level-mathematics",
+    "title": "A Level Mathematics",
+    "description": "Full Cambridge A Level Mathematics programme covering advanced pure mathematics, statistics, and mechanics. The gold standard for students targeting top universities and STEM courses worldwide.",
+    "curriculum": "A Level",
+    "grade": "Grade 12",
+    "targetAudience": "Grade 12 students completing Cambridge A Level Mathematics and targeting top university placements",
+    "subjects": ["Advanced Pure Maths – Integration & Differential Equations", "Further Algebra & Functions", "Statistics – Hypothesis Testing", "Mechanics – Circular & Projectile Motion"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday, Wednesday & Friday 3:00 PM – 5:30 PM", "Sunday 9:00 AM – 12:00 PM"],
+    "fees": {
+      "amount": 1600,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini"],
+    "color": "#0891B2",
+    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&q=80",
+    "features": [
+      "Complete A Level syllabus coverage",
+      "University-style teaching approach",
+      "Full past paper practice series",
+      "Cambridge mark scheme analysis",
+      "Targeting A/A* grades",
+      "UCAS and university readiness"
+    ]
+  },
+  {
+    "id": "a-level-sciences",
+    "title": "A Level Sciences",
+    "description": "Cambridge A Level Sciences programme in Physics, Chemistry, and Biology. Prepares students for competitive university entry in medicine, engineering, and natural sciences with deep subject mastery.",
+    "curriculum": "A Level",
+    "grade": "Grade 12",
+    "targetAudience": "Grade 12 students sitting Cambridge A Level sciences and targeting medical, engineering, or science degrees",
+    "subjects": ["Physics – Fields, Nuclear & Quantum", "Chemistry – Advanced Organic & Electrochemistry", "Biology – Genetics, Respiration & Nervous System", "Advanced Practical Skills"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Daily 3:00 PM – 6:00 PM", "Sunday 2:00 PM – 6:00 PM"],
+    "fees": {
+      "amount": 1600,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["shafee", "ishvarya"],
+    "color": "#DB2777",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+    "features": [
+      "Full A Level syllabus coverage",
+      "Practical endorsement coaching",
+      "Cambridge past papers & mark schemes",
+      "Targeting medicine & engineering entry",
+      "A/A* grade strategies",
+      "Personal statement subject guidance"
+    ]
+  },
+  {
+    "id": "keam",
+    "title": "KEAM Preparation",
+    "description": "Comprehensive coaching for the Kerala Engineering Architecture Medical entrance examination. Targeted preparation in Physics, Chemistry, and Mathematics with a strong focus on past papers, mock tests, and exam-specific strategies.",
+    "curriculum": "KEAM",
+    "grade": "Grade 12",
+    "targetAudience": "Grade 11 & 12 students and repeaters targeting Kerala engineering, pharmacy, and architecture colleges",
+    "subjects": ["Physics — Mechanics, Optics & Modern Physics", "Chemistry — Organic, Inorganic & Physical Chemistry", "Mathematics — Algebra, Calculus & Co-ordinate Geometry", "Previous Year Paper Practice"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "12 months",
+    "schedule": ["Daily 3:00 PM – 7:00 PM", "Weekend full-day mock tests"],
+    "fees": {
+      "amount": 1500,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["shafee", "ishvarya", "raini"],
+    "color": "#7C3AED",
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80",
+    "features": [
+      "Full KEAM syllabus coverage in Physics, Chemistry & Mathematics",
+      "Previous year paper practice series (15+ years)",
+      "Weekly mock tests with detailed performance analysis",
+      "Expert coaching for Kerala university entrance admissions",
+      "Time management and exam strategy sessions",
+      "Special focus on high-yield topics and scoring patterns"
+    ],
+    "relatedCourses": ["jee-preparation", "neet-preparation"]
+  },
+  {
+    "id": "nios",
+    "title": "NIOS Open School Coaching",
+    "description": "Comprehensive coaching for the National Institute of Open Schooling (NIOS) curriculum. We provide tailored support for secondary and senior secondary students to help them achieve their academic goals flexibly.",
+    "curriculum": "NIOS",
+    "grade": "Grade 10 & 12",
+    "targetAudience": "Students seeking flexible schooling options, returning students, or those preparing for competitive exams alongside schooling",
+    "subjects": ["Mathematics", "Science & Technology", "Social Science", "English", "Physics", "Chemistry", "Biology"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Flexible timings based on student requirements", "Weekday and Weekend options available"],
+    "fees": {
+      "amount": 1100,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini", "shafee", "meena"],
+    "color": "#14B8A6",
+    "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=800&q=80",
+    "features": [
+      "Complete NIOS syllabus coverage",
+      "TMA (Tutor Marked Assignment) guidance",
+      "Practical exam preparation",
+      "Chapter-wise assessments",
+      "Flexible learning schedule",
+      "Focus on concept clarity and board exams"
+    ]
+  },
+  {
+    "id": "icse-class-8-mathematics",
+    "title": "ICSE Class 8 Mathematics",
+    "description": "Build a strong mathematical foundation with our ICSE Class 8 Mathematics programme. Master algebra, geometry, and arithmetic skills essential for ICSE board progression.",
+    "curriculum": "ICSE",
+    "grade": "Grade 8",
+    "targetAudience": "ICSE Grade 8 students seeking to excel in Mathematics and build strong fundamentals",
+    "subjects": ["Algebra", "Geometry", "Mensuration", "Rational Numbers", "Data Handling"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday & Wednesday 4:00 PM – 5:30 PM", "Saturday 10:00 AM – 11:30 AM"],
+    "fees": {
+      "amount": 900,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini"],
+    "color": "#0E7490",
+    "image": "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=800&q=80",
+    "features": [
+      "Concept-based ICSE learning approach",
+      "Regular practice worksheets",
+      "Doubt clearing sessions",
+      "Monthly progress reports",
+      "Olympiad preparation included"
+    ]
+  },
+  {
+    "id": "icse-class-8-science",
+    "title": "ICSE Class 8 Science",
+    "description": "Explore Physics, Chemistry, and Biology with ICSE-aligned teaching methods. Hands-on learning and interactive sessions designed for Class 8 ICSE students.",
+    "curriculum": "ICSE",
+    "grade": "Grade 8",
+    "targetAudience": "ICSE Grade 8 students who want to develop scientific thinking and practical knowledge",
+    "subjects": ["Physics", "Chemistry", "Biology", "Scientific Methods", "Lab Experiments"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday & Thursday 4:00 PM – 5:30 PM", "Saturday 2:00 PM – 3:30 PM"],
+    "fees": {
+      "amount": 900,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["meena"],
+    "color": "#0E7490",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+    "features": [
+      "Practical lab demonstrations",
+      "Interactive ICSE-aligned experiments",
+      "Visual learning aids",
+      "Science project guidance",
+      "Regular assessments"
+    ]
+  },
+  {
+    "id": "icse-class-9-mathematics",
+    "title": "ICSE Class 9 Mathematics",
+    "description": "Master advanced mathematical concepts including polynomials, coordinate geometry, and mensuration under the ICSE framework. Strong preparation for Class 10 board exams.",
+    "curriculum": "ICSE",
+    "grade": "Grade 9",
+    "targetAudience": "ICSE Grade 9 students aiming for excellence in Mathematics and strong board exam preparation",
+    "subjects": ["Algebra", "Geometry", "Trigonometry", "Statistics", "Mensuration", "Commercial Maths"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday & Wednesday 5:45 PM – 7:15 PM", "Sunday 10:00 AM – 11:30 AM"],
+    "fees": {
+      "amount": 1000,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini"],
+    "color": "#0E7490",
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80",
+    "features": [
+      "ICSE board exam pattern practice",
+      "Advanced problem-solving techniques",
+      "Weekly mock tests",
+      "Personalized attention",
+      "Competitive exam preparation"
+    ]
+  },
+  {
+    "id": "icse-class-9-science",
+    "title": "ICSE Class 9 Science",
+    "description": "Comprehensive ICSE Science covering Physics, Chemistry, and Biology with emphasis on conceptual clarity and practical applications for Grade 9 students.",
+    "curriculum": "ICSE",
+    "grade": "Grade 9",
+    "targetAudience": "ICSE Grade 9 students seeking in-depth understanding of scientific principles",
+    "subjects": ["Physics – Motion & Force", "Chemistry – Atoms & Molecules", "Biology – Cell Structure", "Scientific Research"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday & Thursday 5:45 PM – 7:15 PM", "Sunday 2:00 PM – 3:30 PM"],
+    "fees": {
+      "amount": 1000,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["meena"],
+    "color": "#0E7490",
+    "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80",
+    "features": [
+      "Detailed ICSE concept explanations",
+      "Laboratory practical sessions",
+      "Diagram-based learning",
+      "Previous year question practice",
+      "Science fair preparation"
+    ]
+  },
+  {
+    "id": "icse-class-10-mathematics",
+    "title": "ICSE Class 10 Mathematics – Board Exam Special",
+    "description": "Intensive ICSE Class 10 board exam preparation covering all chapters with special focus on high-weightage topics and scoring techniques for the ICSE final examination.",
+    "curriculum": "ICSE",
+    "grade": "Grade 10",
+    "targetAudience": "ICSE Class 10 students preparing for board examinations and aiming for 95%+ scores",
+    "subjects": ["Algebra", "Geometry", "Trigonometry", "Statistics", "Probability", "Mensuration"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday, Wednesday & Friday 4:00 PM – 6:00 PM", "Saturday 10:00 AM – 1:00 PM"],
+    "fees": {
+      "amount": 1200,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini", "ishvarya"],
+    "color": "#0E7490",
+    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&q=80",
+    "features": [
+      "Complete ICSE board exam coverage",
+      "Chapter-wise test series",
+      "Previous 10 years ICSE papers",
+      "Scoring strategy sessions",
+      "Time management techniques",
+      "Doubt clearing till exams"
+    ]
+  },
+  {
+    "id": "icse-class-10-science",
+    "title": "ICSE Class 10 Science – Board Exam Special",
+    "description": "Complete ICSE Class 10 Science board exam preparation with focus on Physics, Chemistry, and Biology. Includes practical exam training and in-depth theory mastery.",
+    "curriculum": "ICSE",
+    "grade": "Grade 10",
+    "targetAudience": "ICSE Class 10 students targeting excellent board exam results in Science",
+    "subjects": ["Physics", "Chemistry", "Biology", "Practical Experiments", "Diagram Practice"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday, Thursday & Saturday 4:00 PM – 6:00 PM", "Sunday 10:00 AM – 12:00 PM"],
+    "fees": {
+      "amount": 1200,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["meena", "ishvarya"],
+    "color": "#0E7490",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+    "features": [
+      "Complete ICSE Physics, Chemistry & Biology coverage",
+      "Practical lab exam preparation",
+      "Chapter-wise assessments",
+      "Previous 10 years ICSE Science papers",
+      "Scoring techniques for all three sciences"
+    ]
+  },
+  {
+    "id": "icse-class-11-mathematics",
+    "title": "ISC Class 11 Mathematics",
+    "description": "Advanced ISC Class 11 Mathematics programme covering calculus, algebra, and coordinate geometry with rigorous problem-solving training for board and competitive exam success.",
+    "curriculum": "ICSE",
+    "grade": "Grade 11",
+    "targetAudience": "ISC Grade 11 students aiming for excellence in Mathematics and competitive exam foundations",
+    "subjects": ["Calculus", "Algebra", "Coordinate Geometry", "Trigonometry", "Vectors", "Statistics"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday, Wednesday & Friday 6:15 PM – 8:15 PM", "Sunday 9:00 AM – 12:00 PM"],
+    "fees": {
+      "amount": 1300,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini"],
+    "color": "#0E7490",
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80",
+    "features": [
+      "Complete ISC Class 11 Maths syllabus",
+      "Concept-driven teaching with regular tests",
+      "JEE/NEET foundation included",
+      "Previous year ISC paper practice",
+      "Personalized doubt sessions"
+    ]
+  },
+  {
+    "id": "icse-class-11-science",
+    "title": "ISC Class 11 Science (PCB/PCM)",
+    "description": "Comprehensive ISC Class 11 Science covering Physics, Chemistry, and Biology or Mathematics. Builds a strong conceptual base for ISC board exams and competitive entrance tests.",
+    "curriculum": "ICSE",
+    "grade": "Grade 11",
+    "targetAudience": "ISC Grade 11 students in PCB or PCM streams seeking board excellence and competitive exam readiness",
+    "subjects": ["Physics", "Chemistry", "Biology", "Mathematics", "Practical Lab Work"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday, Thursday & Saturday 6:15 PM – 8:30 PM", "Sunday 2:00 PM – 5:00 PM"],
+    "fees": {
+      "amount": 1300,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["meena", "shafee", "ishvarya"],
+    "color": "#0E7490",
+    "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80",
+    "features": [
+      "ISC Physics, Chemistry & Biology/Maths coverage",
+      "Practical lab guidance",
+      "JEE/NEET foundation alongside ISC prep",
+      "Regular chapter-wise mock tests",
+      "Expert faculty for each subject"
+    ]
+  },
+  {
+    "id": "icse-class-12-mathematics",
+    "title": "ISC Class 12 Mathematics – Board Exam Special",
+    "description": "Intensive ISC Class 12 Mathematics board exam preparation with full syllabus coverage, extensive past paper practice, and proven scoring strategies.",
+    "curriculum": "ICSE",
+    "grade": "Grade 12",
+    "targetAudience": "ISC Class 12 students targeting 90%+ scores and competitive exam success",
+    "subjects": ["Calculus", "Algebra", "Probability", "Coordinate Geometry", "Vectors & 3D", "Linear Programming"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Monday, Wednesday & Friday 6:15 PM – 8:15 PM", "Sunday 9:00 AM – 12:00 PM"],
+    "fees": {
+      "amount": 1500,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["raini", "ishvarya"],
+    "color": "#0E7490",
+    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&q=80",
+    "features": [
+      "Full ISC Class 12 Maths syllabus coverage",
+      "15+ years of past ISC papers",
+      "Chapter-wise and full-length mock tests",
+      "Scoring strategy and time management",
+      "Doubt clearing till board exams"
+    ]
+  },
+  {
+    "id": "icse-class-12-science",
+    "title": "ISC Class 12 Science – Board Exam Special",
+    "description": "Complete ISC Class 12 Science board exam preparation covering Physics, Chemistry, and Biology with intensive revision, practicals coaching, and past paper analysis.",
+    "curriculum": "ICSE",
+    "grade": "Grade 12",
+    "targetAudience": "ISC Class 12 students aiming for 90%+ board scores and medical/engineering entrance exams",
+    "subjects": ["Physics", "Chemistry", "Biology", "Practical Experiments", "Past Paper Analysis"],
+    "mode": "Offline / Online / Hybrid",
+    "duration": "10 months",
+    "schedule": ["Tuesday, Thursday & Saturday 6:15 PM – 8:30 PM", "Sunday 2:00 PM – 5:00 PM"],
+    "fees": {
+      "amount": 1500,
+      "currency": "AED",
+      "period": "monthly"
+    },
+    "faculty": ["meena", "shafee", "ishvarya"],
+    "color": "#0E7490",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+    "features": [
+      "Full ISC Physics, Chemistry & Biology coverage",
+      "Practical exam coaching",
+      "15+ years of past ISC Science papers",
+      "JEE/NEET bridge sessions available",
+      "Doubt clearing till board exams"
+    ]
+  }
+]
