@@ -98,10 +98,10 @@ const About = () => {
                             </h2>
                             <div className="space-y-5 text-gray-600 text-lg leading-relaxed">
                                 <p>
-                                    Aura Academia was founded in 2018 by a group of passionate educators who saw a gap in the tutoring landscape. Many centres focused on rote learning, treating students as numbers rather than individuals with unique learning styles.
+                                    Aura Academia was founded in 2018 by Ishvarya Ramasubramanian, a passionate educator with over 15 years of experience in Medical Science and Chemistry. Driven by a vision to transform the way students learn, she recognized a gap in the tutoring landscape, where many coaching centres relied heavily on rote learning instead of understanding each student's unique learning style and potential.
                                 </p>
                                 <p>
-                                    We started with just 15 students in a small facility in Abushagara, Sharjah. Our focus was on personalised attention, understanding exam psychology, and building genuine confidence in our students.
+                                    It started with just 15 students in a small facility in Abushagara, Sharjah. From the very beginning, the academy focused on personalized learning, concept-based teaching, exam-oriented strategies, and building genuine confidence in every student. This student-first approach laid the foundation for what Aura Academia has become today.
                                 </p>
                                 {/* Pull quote */}
                                 <div className="relative pl-5 border-l-4 border-emerald-500 my-6 py-2">
