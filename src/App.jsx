@@ -14,6 +14,7 @@ const Psychometric = lazy(() => import('./pages/Psychometric'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Reviews = lazy(() => import('./pages/Reviews'));
 const Testimonials = lazy(() => import('./pages/Testimonials'));
+const Partner = lazy(() => import('./pages/Partner'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 // Components (not lazy loaded as they're needed immediately)
@@ -77,6 +78,7 @@ function App() {
                   <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/partner" element={<Partner />} />
                     <Route path="/courses" element={<Courses />} />
                     <Route path="/courses/:courseId" element={<CourseDetails />} />
                     <Route path="/faculty" element={<Faculty />} />
