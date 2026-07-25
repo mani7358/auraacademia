@@ -16,7 +16,7 @@ const pageVariants = {
     out: { opacity: 0, y: -20 },
 };
 
-const About = () => {
+const partner = () => {
     const scrollRef = useRef(null);
 
     useEffect(() => {
@@ -311,4 +311,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default partner;
