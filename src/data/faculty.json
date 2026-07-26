@@ -1,7 +1,7 @@
 [
   {
     "id": "ishvarya",
-    "name": "Dr. Ishvarya",
+    "name": "Ishvarya",
     "role": "Expert in Medical Sciences & Chemistry",
     "subjects": [
       "Chemistry",
@@ -9,7 +9,7 @@
       "Medical Sciences"
     ],
     "photo": "https://i.pravatar.cc/400?img=25",
-    "bio": "Dr. Ishvarya is a highly experienced educator specialising in Medical Sciences and Chemistry. With 15+ years of teaching expertise, she has guided countless students to success in NEET and board examinations through her clear, concept-driven approach. Her visual-learning methods make complex biochemistry and organic chemistry both engaging and exam-ready.",
+    "bio": "Ishvarya is a highly experienced educator specialising in Medical Sciences and Chemistry. With 15+ years of teaching expertise, she has guided countless students to success in NEET and board examinations through her clear, concept-driven approach. Her visual-learning methods make complex biochemistry and organic chemistry both engaging and exam-ready.",
     "experience": 15,
     "isAdmin": false,
     "specializations": [
