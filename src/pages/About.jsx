@@ -247,12 +247,15 @@ const About = () => {
                                 className="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 hover:-translate-y-2 group"
                             >
                                 {/* Gradient header */}
-                                <div className="h-28 relative overflow-hidden"
+                                <div className="h-28 relative"
                                     style={{ background: `linear-gradient(135deg, ${staff.gradFrom} 0%, ${staff.gradTo} 100%)` }}>
-                                    <div className="absolute -right-6 -top-6 w-24 h-24 bg-white/10 rounded-full" />
-                                    <div className="absolute -left-4 -bottom-8 w-20 h-20 bg-white/10 rounded-full" />
+                                    {/* Decorative circles are clipped here so the avatar below can overhang the header */}
+                                    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                                        <div className="absolute -right-6 -top-6 w-24 h-24 bg-white/10 rounded-full" />
+                                        <div className="absolute -left-4 -bottom-8 w-20 h-20 bg-white/10 rounded-full" />
+                                    </div>
                                     {/* Avatar */}
-                                    <div className="absolute -bottom-8 left-1/2 -translate-x-1/2">
+                                    <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 z-10">
                                         <div
                                             className="w-16 h-16 rounded-2xl border-4 border-white shadow-xl flex items-center justify-center text-white text-2xl font-black"
                                             style={{ backgroundColor: staff.accent }}
