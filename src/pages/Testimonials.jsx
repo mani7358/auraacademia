@@ -167,11 +167,7 @@ const Testimonials = () => {
 
     return (
         <div className="bg-[#F7F8FA] min-h-screen">
-            <SEO
-                title="Testimonials - Aura Academia | Student & Parent Reviews"
-                description="Read genuine reviews and WhatsApp testimonials from students and parents about their experience at Aura Academia. 4.9 star rating with 133+ verified Google reviews."
-                keywords="aura academia testimonials, tuition centre sharjah reviews, student testimonials, parent reviews, whatsapp reviews"
-            />
+            <SEO />
 
             {/* ── Hero ── */}
             <section

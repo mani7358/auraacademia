@@ -117,11 +117,7 @@ const Contact = () => {
             variants={pageVariants} transition={{ type: 'tween', ease: 'anticipate', duration: 0.5 }}
             className="bg-white min-h-screen"
         >
-            <SEO
-                title="Contact Us - Book Free Trial | Aura Academia Sharjah"
-                description="Get in touch with Aura Academia. Visit us in Abushagara, Sharjah, call +971 585755286, or book your free trial class today."
-                keywords="contact aura academia, sharjah tuition centre location, book free trial, admission enquiry"
-            />
+            <SEO />
 
             <PageHero
                 title={["Get In", "Touch"]}

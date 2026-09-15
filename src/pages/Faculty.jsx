@@ -27,11 +27,7 @@ const Faculty = () => {
             exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.5 }}
             className="bg-white min-h-screen"
         >
-            <SEO
-                title="Expert Faculty - Meet Our Teachers | Aura Academia Sharjah"
-                description="Learn from the region's finest educators with years of proven academic success. Meet our passionate teachers dedicated to student excellence."
-                keywords="expert teachers sharjah, qualified tutors UAE, experienced faculty, CBSE teachers, IGCSE instructors"
-            />
+            <SEO />
 
             <PageHero
                 title={["Meet Our Expert", "Faculty"]}

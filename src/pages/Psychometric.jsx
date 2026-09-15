@@ -160,11 +160,7 @@ const Psychometric = () => {
             exit={{ opacity: 0, y: -20 }} transition={{ type: 'tween', ease: 'anticipate', duration: 0.5 }}
             className="bg-white"
         >
-            <SEO
-                title="Psychometric Testing & Career Guidance | Aura Academia"
-                description="Discover your true path with scientifically backed psychometric testing. Get personalised career guidance and make informed decisions about your academic future."
-                keywords="psychometric testing UAE, career guidance sharjah, aptitude test, career counseling, stream selection"
-            />
+            <SEO />
 
             <PageHero
                 title="Discover Your True Path"

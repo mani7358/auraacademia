@@ -74,11 +74,7 @@ const Gallery = () => {
             transition={{ type: 'tween', ease: 'anticipate', duration: 0.5 }}
             className="bg-white min-h-screen"
         >
-            <SEO
-                title="Gallery - Campus Life & Success Stories | Aura Academia"
-                description="Explore moments of learning, celebration, and achievement at Aura Academia. View photos from classrooms, success meets, events, and facilities."
-                keywords="aura academia gallery, campus photos sharjah, student success stories, classroom facilities UAE"
-            />
+            <SEO />
 
             <PageHero
                 title="Our Gallery"

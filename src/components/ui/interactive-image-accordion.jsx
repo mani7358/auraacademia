@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { ArrowRight, GraduationCap, Users, Brain, Star, CheckCircle, PlayCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ShinyText from '../text/ShinyText';
-import hero2 from '../../assets/hero 2.png';
-import classroomLearning from '../../assets/classroom-learning.png';
+import hero2 from '../../assets/hero-2.jpg';
+import classroomLearning from '../../assets/classroom-learning.jpg';
 
 const FloatingOrbs = lazy(() => import('../FloatingOrbs'));
 

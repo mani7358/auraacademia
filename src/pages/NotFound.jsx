@@ -3,14 +3,12 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Home, ArrowLeft } from 'lucide-react';
 import SEO from '../components/SEO';
+import { notFoundSeo } from '../data/seo';
 
 const NotFound = () => {
     return (
         <div className="min-h-screen bg-[#0A1628] flex items-center justify-center px-4 relative overflow-hidden">
-            <SEO
-                title="404 - Page Not Found | Aura Academia"
-                description="The page you're looking for doesn't exist. Return to Aura Academia homepage."
-            />
+            <SEO {...notFoundSeo} />
 
             {/* Background decoration */}
             <div className="absolute inset-0 pointer-events-none opacity-10"

@@ -7,6 +7,7 @@ import {
     Sparkles, Target, Star
 } from 'lucide-react';
 import SEO from '../components/SEO';
+import { seoForCourse } from '../data/seo';
 import coursesData from '../data/courses.json';
 import facultyData from '../data/faculty.json';
 
@@ -69,11 +70,7 @@ const CourseDetails = () => {
 
     return (
         <div className="min-h-screen bg-[#F8FAFB] overflow-x-hidden">
-            <SEO
-                title={`${course.title} - Aura Academia`}
-                description={course.description}
-                keywords={`${course.curriculum}, ${course.grade}, ${course.subjects?.join(', ')}`}
-            />
+            <SEO {...seoForCourse(course)} />
 
             {/* ── HERO ─────────────────────────────────────────────── */}
             <section className="pt-24 pb-10 relative overflow-hidden bg-white border-b border-gray-100">

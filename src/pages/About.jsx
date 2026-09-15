@@ -71,11 +71,7 @@ const About = () => {
             className="bg-white"
             ref={scrollRef}
         >
-            <SEO
-                title="About Aura Academia - Our Story & Mission | Sharjah Tuition"
-                description="Discover how Aura Academia became Sharjah's premier tuition centre. Learn about our 10+ years of excellence, expert faculty, and commitment to student success."
-                keywords="about aura academia, sharjah tuition centre history, expert faculty UAE, educational excellence"
-            />
+            <SEO />
 
             <PageHero
                 title={["Our Story,", "Your Success"]}

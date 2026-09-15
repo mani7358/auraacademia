@@ -57,11 +57,7 @@ const Courses = () => {
             transition={{ duration: 0.5 }}
             className="bg-white min-h-screen"
         >
-            <SEO
-                title="Our Courses - Class 8 to 12, JEE & NEET | Aura Academia"
-                description="Comprehensive coaching for Class 8, 9, 10, 11, 12 Mathematics and Science. Expert JEE and NEET preparation in Sharjah, UAE."
-                keywords="Class 8 tuition, Class 9 coaching, Class 10 boards, Class 11 science, Class 12 maths, JEE preparation, NEET coaching, Sharjah"
-            />
+            <SEO />
 
             <PageHero
                 title={["Our", "Courses"]}

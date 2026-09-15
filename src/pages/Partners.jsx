@@ -73,11 +73,7 @@ const Partners = () => {
             className="bg-white"
             ref={scrollRef}
         >
-            <SEO
-                title="Our Partners - Aura Academia | Jeppiaar Academy of Psychology and Research"
-                description="Aura Academia proudly partners with Jeppiaar Academy of Psychology and Research to bring the Diploma in Counselling and Child Psychology to Sharjah, UAE."
-                keywords="aura academia partners, jeppiaar academy, counselling psychology diploma sharjah, child psychology course UAE"
-            />
+            <SEO />
 
             <PageHero
                 title={["Our Trusted", "Partnerships"]}

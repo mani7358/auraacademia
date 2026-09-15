@@ -289,11 +289,7 @@ const Home = () => {
 
     return (
         <div className="bg-white min-h-screen overflow-x-hidden">
-            <SEO
-                title="Aura Academia - An academic hub to gear up beyond block excellence."
-                description="An academic hub to gear up beyond block excellence. Offering expert coaching for CBSE, ICSE, IGCSE, IB, and A-Levels in Sharjah. Personalised learning with proven results."
-                keywords="tuition centre sharjah, CBSE coaching UAE, ICSE tutoring, IGCSE tutoring, IB diploma, JEE NEET preparation, psychometric testing"
-            />
+            <SEO />
 
             {/* 1. HERO */}
             <div className="fade-up-section">
