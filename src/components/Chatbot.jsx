@@ -105,7 +105,7 @@ FACULTY
 - Meena | Science | 7 years experience | B.Sc., B.Ed.
   Enthusiastic Science educator specialising in foundational Physics, Chemistry, and Biology for Grades 8–10.
 - Rithik Tatia | Support Teacher | 3+ years experience | Master's Degree in Pharmacology and Chemistry
-  Supports students in small groups with concept reinforcement, doubt clearing, and revision.
+  Works alongside the subject faculty on Chemistry and Biology: doubt-clearing sessions, guided practice papers, and board exam revision for Grades 8–12.
 
 COMING SOON
 - New subjects launching soon: French, Economics, Business Studies, and Accountancy. Batch dates and fees are not announced yet; invite interested families to register their interest by phone, WhatsApp, or the contact form.

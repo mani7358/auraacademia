@@ -127,19 +127,23 @@
     "role": "Support Teacher",
     "subjects": [
       "Chemistry",
-      "Pharmacology"
+      "Biology"
     ],
     "photo": "https://i.pravatar.cc/400?img=68",
-    "bio": "Rithik Tatia is a Support Teacher at Aura Academia with 3+ years of teaching experience and a Master's degree in Pharmacology and Chemistry. Working closely with students in small groups, Rithik helps them strengthen core concepts, clear doubts quickly, and stay on track with their school and board exam preparation.",
+    "bio": "Rithik Tatia brings a strong science background to Aura Academia, with a Master's degree in Pharmacology and Chemistry and 3+ years of teaching experience. As a Support Teacher, Rithik works alongside our subject faculty to reinforce classroom learning — running doubt-clearing sessions, guiding students through practice papers, and giving extra attention to those who need it most. A patient, step-by-step approach helps students turn difficult Chemistry and Biology topics into concepts they can explain with confidence.",
     "experience": 3,
     "isAdmin": false,
     "specializations": [
-      "Master's Degree in Pharmacology and Chemistry"
+      "Master's Degree in Pharmacology and Chemistry",
+      "Doubt-Clearing Sessions",
+      "Board Exam Revision",
+      "Concept Reinforcement"
     ],
     "achievements": [
-      "3+ years of teaching and student support experience",
-      "Holds a Master's Degree in Pharmacology and Chemistry",
-      "Provides one-to-one doubt clearing and revision support"
+      "3+ years of teaching and academic support experience",
+      "Postgraduate expertise in Pharmacology and Chemistry",
+      "Runs regular doubt-clearing and revision sessions for Grades 8–12",
+      "Helps students sharpen exam technique through guided practice papers"
     ]
   }
 ]
