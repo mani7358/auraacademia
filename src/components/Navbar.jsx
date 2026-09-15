@@ -6,7 +6,6 @@ import { Menu, X, ChevronDown, Phone, Mail, ChevronRight, GraduationCap, BookOpe
 import logo from '../assets/Aura-logo.png';
 import logoText from '../assets/Aura-logo-text.png';
 
-// ── Course categories actually offered ──────────────────────────
 const courseCategories = [
     { label: 'CBSE', name: 'CBSE (Grade 8–12)', icon: <BookOpen size={13} />, color: '#059669', desc: 'Maths & Science, Grade 8–12' },
     { label: 'ICSE', name: 'ICSE / ISC (Grade 8–12)', icon: <GraduationCap size={13} />, color: '#0E7490', desc: 'ICSE & ISC Maths & Science, Grade 8–12' },
@@ -22,6 +21,7 @@ const navLinks = [
     { name: 'About', path: '/about' },
     { name: 'Courses', path: '/courses', hasDropdown: true },
     { name: 'Faculty', path: '/faculty' },
+    { name: 'Partners', path: '/partners' },
     { name: 'Gallery', path: '/gallery' },
     { name: 'Testimonials', path: '/testimonials' },
     { name: 'Psychometric Test', path: '/psychometric' },
@@ -33,12 +33,12 @@ const loginOptions = [
     { name: 'Students', href: 'https://auraacademia.classpro.in/people/sign_in', icon: <Users size={14} />, desc: 'View progress & attendance' },
 ];
 
-// ── Icons for mobile nav ─────────────────────────────────────────
 const mobileNavIcons = {
     'Home': '🏠',
     'About': '📖',
     'Courses': '🎓',
     'Faculty': '👩‍🏫',
+    'Partners': '🤝',
     'Gallery': '🖼️',
     'Testimonials': '⭐',
     'Psychometric Test': '🧠',
@@ -98,7 +98,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
 
     return (
         <>
-            {/* ── Ticker Bar ── */}
             <motion.div
                 className="fixed top-0 left-0 right-0 z-50 overflow-hidden"
                 style={{
@@ -118,13 +117,13 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                     <div className="relative flex-1 overflow-hidden h-full flex items-center">
                         <div className="flex animate-marquee items-center gap-0 whitespace-nowrap text-xs">
                             {[
-                                '📍 Abushagara, Sharjah, UAE',
-                                '📞 +971 585755286 | +971 65693738',
-                                '✉️ aurafirstscience@gmail.com',
-                                '🕐 Mon–Sun: 3:30 PM – 9:00 PM',
-                                '🎓 CBSE · ICSE · IGCSE · AS & A Levels · JEE · NEET',
-                                '⭐ 2,000+ Students | 7+ Years of Excellence',
-                                '🆓 Free Trial Class Available — Enroll Today!',
+                                'Abushagara, Sharjah, UAE',
+                                '+971 585755286 | +971 65693738',
+                                'aurafirstscience@gmail.com',
+                                'Mon–Sun: 3:30 PM – 9:00 PM',
+                                'CBSE · ICSE · IGCSE · AS & A Levels · JEE · NEET',
+                                '2,000+ Students | 7+ Years of Excellence',
+                                'Free Trial Class Available — Enroll Today!',
                             ].flatMap((item, i) => [
                                 <span key={i} className="inline-flex items-center gap-6 px-8 text-gray-400">{item}<span className="text-emerald-600 text-xs">◆</span></span>,
                                 <span key={`d-${i}`} className="inline-flex items-center gap-6 px-8 text-gray-400">{item}<span className="text-emerald-600 text-xs">◆</span></span>,
@@ -134,7 +133,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                 </div>
             </motion.div>
 
-            {/* ── Main Navbar ── */}
             <nav
                 className={`fixed left-0 right-0 z-40 transition-all duration-300 ${isContentVisible ? 'top-[36px]' : 'top-0'} ${isScrolled
                     ? 'bg-white/95 backdrop-blur-md shadow-lg shadow-gray-900/8 py-3 border-b border-gray-100'
@@ -143,7 +141,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
             >
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center">
-                        {/* Logo */}
                         <Link to="/" className="flex items-center z-[60] group">
                             <div className="h-11 relative flex items-center justify-start shrink-0">
                                 {!isSplashVisible && !isContentVisible && (
@@ -168,7 +165,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                             </div>
                         </Link>
 
-                        {/* Desktop Nav */}
                         <motion.div
                             className="flex items-center"
                             initial={{ opacity: 0 }}
@@ -199,7 +195,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                                             )}
                                         </Link>
 
-                                        {/* Courses dropdown */}
                                         <AnimatePresence>
                                             {link.hasDropdown && activeDropdown === link.name && (
                                                 <motion.div
@@ -278,7 +273,8 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                                                 </div>
                                                 <div className="px-3 pb-3 space-y-0.5">
                                                     {loginOptions.map((option, i) => (
-                                                        <a
+                                                        
+                                                            <a
                                                             key={i}
                                                             href={option.href}
                                                             target="_blank"
@@ -301,7 +297,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                                 </div>
                             </div>
 
-                            {/* Mobile toggle */}
                             <button
                                 className="lg:hidden z-[60] text-gray-900 p-2 rounded-xl hover:bg-gray-100 transition-colors"
                                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -314,11 +309,9 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                 </div>
             </nav>
 
-            {/* ── Mobile Menu ── */}
             <AnimatePresence>
                 {isMobileMenuOpen && (
                     <>
-                        {/* Backdrop */}
                         <motion.div
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
@@ -328,7 +321,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                             onClick={() => setIsMobileMenuOpen(false)}
                         />
 
-                        {/* Drawer */}
                         <motion.div
                             initial={{ x: '100%' }}
                             animate={{ x: 0 }}
@@ -337,7 +329,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                             className="fixed top-[36px] right-0 bottom-0 w-[88%] max-w-[340px] z-[46] shadow-2xl lg:hidden flex flex-col overflow-hidden"
                             style={{ background: 'linear-gradient(160deg, #0A1628 0%, #0f2245 100%)' }}
                         >
-                            {/* Header */}
                             <div className="flex items-center justify-between px-5 py-4 border-b border-white/10">
                                 <div className="flex items-center gap-2">
                                     <div className="w-8 h-8 rounded-lg flex items-center justify-center text-white text-sm font-black shrink-0"
@@ -352,15 +343,16 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                                 </button>
                             </div>
 
-                            {/* Contact chips */}
                             <div className="flex gap-2 px-5 py-3 border-b border-white/10">
-                                <a
+                                
+                                    <a
                                     href="tel:+971585755286"
                                     className="flex-1 flex items-center justify-center gap-1.5 bg-emerald-600/20 border border-emerald-500/30 rounded-xl py-2 text-emerald-400 text-xs font-bold"
                                 >
                                     <Phone size={11} /> Call Us
                                 </a>
-                                <a
+                                
+                                    <a
                                     href="https://wa.me/971585755286"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -369,7 +361,8 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                                     <svg className="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.083.534 4.043 1.468 5.75L0 24l6.395-1.676A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.882a9.882 9.882 0 01-5.038-1.382l-.361-.214-3.737.979 1.005-3.643-.235-.374A9.861 9.861 0 012.118 12C2.118 6.51 6.51 2.118 12 2.118c5.49 0 9.882 4.392 9.882 9.882 0 5.49-4.392 9.882-9.882 9.882z" /></svg>
                                     WhatsApp
                                 </a>
-                                <a
+                                
+                                    <a
                                     href="mailto:aurafirstscience@gmail.com"
                                     className="flex-1 flex items-center justify-center gap-1.5 bg-blue-600/15 border border-blue-500/30 rounded-xl py-2 text-blue-400 text-xs font-bold"
                                 >
@@ -377,7 +370,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                                 </a>
                             </div>
 
-                            {/* Nav links */}
                             <div className="flex-1 overflow-y-auto px-4 py-4 space-y-1">
                                 {navLinks.map((link, i) => (
                                     <motion.div
@@ -388,7 +380,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                                     >
                                         {link.hasDropdown ? (
                                             <>
-                                                {/* Courses accordion toggle */}
                                                 <button
                                                     onClick={() => setMobileCoursesOpen(o => !o)}
                                                     className={`w-full flex items-center justify-between px-4 py-3.5 rounded-2xl text-sm font-bold transition-all ${isActive(link.path)
@@ -406,7 +397,6 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                                                     />
                                                 </button>
 
-                                                {/* Course sub-items */}
                                                 <AnimatePresence>
                                                     {mobileCoursesOpen && (
                                                         <motion.div
@@ -464,10 +454,10 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                                 ))}
                             </div>
 
-                            {/* Bottom CTA */}
                             <div className="px-5 py-5 border-t border-white/10 space-y-3">
                                 <div className="grid grid-cols-2 gap-3">
-                                    <a
+                                    
+                                        <a
                                         href="https://classpro.in/signin"
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -475,7 +465,8 @@ const Navbar = ({ isSplashVisible, isContentVisible }) => {
                                     >
                                         <UserCog size={14} /> Staff
                                     </a>
-                                    <a
+                                    
+                                        <a
                                         href="https://auraacademia.classpro.in/people/sign_in"
                                         target="_blank"
                                         rel="noopener noreferrer"
