@@ -262,10 +262,12 @@ const CourseDetails = () => {
                                                         </div>
 
                                                         {/* Experience badge */}
-                                                        <div className="relative z-10 bg-white/15 border border-white/25 rounded-xl px-4 py-2 text-center">
-                                                            <p className="text-2xl font-black text-white leading-none">{faculty.experience}+</p>
-                                                            <p className="text-white/70 text-[10px] font-semibold mt-0.5">Years Exp.</p>
-                                                        </div>
+                                                        {faculty.experience ? (
+                                                            <div className="relative z-10 bg-white/15 border border-white/25 rounded-xl px-4 py-2 text-center">
+                                                                <p className="text-2xl font-black text-white leading-none">{faculty.experience}+</p>
+                                                                <p className="text-white/70 text-[10px] font-semibold mt-0.5">Years Exp.</p>
+                                                            </div>
+                                                        ) : null}
                                                     </div>
 
                                                     {/* Right content */}

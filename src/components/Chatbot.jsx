@@ -94,7 +94,7 @@ KEAM (Kerala Engineering Architecture Medical entrance)
   Includes: 15+ years previous papers, weekly mock tests, performance analysis, Kerala university admission counselling
 
 FACULTY
-- Usha | Administrator & Student Counsellor | 16+ years experience
+- Sharanya Senthil Prabhu | Administrator & Student Counsellor
   First point of contact for all admissions, counselling, and parent communication. Guides students and families through every step of their Aura journey.
 - Ishvarya | Medical Sciences & Chemistry | 15+ years experience | M.Sc. Chemistry, B.Ed.
   Expert in Organic Chemistry, Medical Sciences, and NEET Biology. Trained numerous NEET qualifiers with a concept-driven approach.
@@ -104,6 +104,11 @@ FACULTY
   Highly accomplished Mathematics educator. Expert in Calculus, Algebra, JEE Mathematics, and A-Level Mathematics.
 - Meena | Science | 7 years experience | B.Sc., B.Ed.
   Enthusiastic Science educator specialising in foundational Physics, Chemistry, and Biology for Grades 8–10.
+- Rithik Tatia | Support Teacher | 3+ years experience | Master's Degree in Pharmacology and Chemistry
+  Supports students in small groups with concept reinforcement, doubt clearing, and revision.
+
+COMING SOON
+- New subjects launching soon: French, Economics, Business Studies, and Accountancy. Batch dates and fees are not announced yet; invite interested families to register their interest by phone, WhatsApp, or the contact form.
 
 PSYCHOMETRIC TESTING
 - Free for all enrolled Aura Academia students

@@ -51,7 +51,7 @@ const About = () => {
 
     const faculty = [
         { name: 'Ishvarya', role: 'Medical Sciences & Chemistry', exp: '15+', bio: 'Expert in Medical Sciences and Chemistry. Her concept-driven approach has guided countless students to NEET and board exam success.', accent: '#2563EB', gradFrom: '#2563EB', gradTo: '#3B82F6' },
-        { name: 'Usha', role: 'Administrator & Student Counsellor', exp: '16+', bio: 'The heart of Aura Academia — guiding every student and family through their academic journey with care and expertise.', accent: '#D97706', gradFrom: '#D97706', gradTo: '#F59E0B' },
+        { name: 'Sharanya Senthil Prabhu', role: 'Administrator & Student Counsellor', exp: null, bio: 'The heart of Aura Academia — guiding every student and family through their academic journey with care and expertise.', accent: '#D97706', gradFrom: '#D97706', gradTo: '#F59E0B' },
         { name: 'Shaik Shafee', role: 'Physics', exp: '15+', bio: 'Seasoned Physics educator renowned for turning abstract concepts into clear, exam-winning strategies for JEE, NEET, and board exams.', accent: '#7C3AED', gradFrom: '#7C3AED', gradTo: '#A78BFA' },
         { name: 'Raini Sreekanth', role: 'Mathematics', exp: '15+', bio: 'Highly accomplished Mathematics educator with 15+ years of experience, guiding students through CBSE, JEE, and A-Level Mathematics.', accent: '#059669', gradFrom: '#059669', gradTo: '#10B981' },
         { name: 'Meena', role: 'Science', exp: '10+', bio: 'Enthusiastic Science educator known for engaging, interactive methods that build strong foundational science understanding in students.', accent: '#0891B2', gradFrom: '#0891B2', gradTo: '#22D3EE' },
@@ -268,10 +268,12 @@ const About = () => {
                                 <div className="pt-12 p-7 text-center">
                                     <h4 className="text-xl font-black text-[#0A1628] mb-1">{staff.name}</h4>
                                     <p className="text-sm font-bold mb-2" style={{ color: staff.accent }}>{staff.role}</p>
-                                    <span className="inline-block px-3 py-1 rounded-full text-xs font-bold mb-4"
-                                        style={{ backgroundColor: `${staff.accent}12`, color: staff.accent }}>
-                                        {staff.exp} Yrs Experience
-                                    </span>
+                                    {staff.exp ? (
+                                        <span className="inline-block px-3 py-1 rounded-full text-xs font-bold mb-4"
+                                            style={{ backgroundColor: `${staff.accent}12`, color: staff.accent }}>
+                                            {staff.exp} Yrs Experience
+                                        </span>
+                                    ) : null}
                                     <p className="text-gray-500 text-sm leading-relaxed">{staff.bio}</p>
                                 </div>
                             </motion.div>

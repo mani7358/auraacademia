@@ -79,10 +79,12 @@ const Faculty = () => {
                                                 <p className="relative z-10 text-white/80 text-xs font-semibold mb-3">{faculty.role}</p>
 
                                                 {/* Experience badge */}
-                                                <div className="relative z-10 bg-white/15 border border-white/25 rounded-2xl px-5 py-3 text-center">
-                                                    <p className="text-3xl font-black text-white leading-none">{faculty.experience}+</p>
-                                                    <p className="text-white/70 text-xs font-semibold mt-0.5">Years Experience</p>
-                                                </div>
+                                                {faculty.experience ? (
+                                                    <div className="relative z-10 bg-white/15 border border-white/25 rounded-2xl px-5 py-3 text-center">
+                                                        <p className="text-3xl font-black text-white leading-none">{faculty.experience}+</p>
+                                                        <p className="text-white/70 text-xs font-semibold mt-0.5">Years Experience</p>
+                                                    </div>
+                                                ) : null}
                                             </div>
 
                                             {/* Right content */}
@@ -170,10 +172,12 @@ const Faculty = () => {
                                                 </div>
 
                                                 {/* Experience badge */}
-                                                <div className="relative z-10 mt-5 bg-white/15 border border-white/25 rounded-2xl px-5 py-3 text-center">
-                                                    <p className="text-3xl font-black text-white leading-none">{faculty.experience}+</p>
-                                                    <p className="text-white/70 text-xs font-semibold mt-0.5">Years Experience</p>
-                                                </div>
+                                                {faculty.experience ? (
+                                                    <div className="relative z-10 mt-5 bg-white/15 border border-white/25 rounded-2xl px-5 py-3 text-center">
+                                                        <p className="text-3xl font-black text-white leading-none">{faculty.experience}+</p>
+                                                        <p className="text-white/70 text-xs font-semibold mt-0.5">Years Experience</p>
+                                                    </div>
+                                                ) : null}
                                             </div>
 
                                             {/* Right content */}

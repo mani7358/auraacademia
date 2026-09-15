@@ -25,26 +25,26 @@
     ]
   },
   {
-    "id": "usha",
-    "name": "Usha",
+    "id": "sharanya",
+    "name": "Sharanya Senthil Prabhu",
     "role": "Administrator & Student Counsellor",
     "subjects": [
       "Student Counselling",
       "Administration"
     ],
     "photo": "https://i.pravatar.cc/400?img=47",
-    "bio": "Usha is the heart of Aura Academia, bringing over 25 years of experience in academic administration and student counselling. She ensures every student's journey at Aura is smooth, supported, and successful — from enrolment to exam day. Her warm approach and deep understanding of student needs make her the first point of contact for all families.",
-    "experience": 25,
+    "bio": "Sharanya Senthil Prabhu is the first point of contact for families at Aura Academia. From enquiries and enrolment to timetables and progress updates, Sharanya makes sure every student's journey at Aura is smooth, supported, and successful — from the first visit to exam day.",
+    "experience": null,
     "isAdmin": true,
     "specializations": [
       "Student Counselling",
       "Academic Administration",
-      "Career Guidance"
+      "Admissions & Enrolment"
     ],
     "achievements": [
-      "25+ years in academic administration",
-      "Guided thousands of students and families through their academic journey",
-      "Expert in student welfare, support systems, and enrolment processes"
+      "First point of contact for students and parents",
+      "Manages enrolment, class schedules, and parent communication",
+      "Committed to student welfare and a smooth learning experience"
     ]
   },
   {
@@ -119,6 +119,27 @@
       "10 years of dedicated Science teaching",
       "Specialist in foundational and applied science for Grades 8–10",
       "Known for engaging and interactive teaching methods"
+    ]
+  },
+  {
+    "id": "rithik",
+    "name": "Rithik Tatia",
+    "role": "Support Teacher",
+    "subjects": [
+      "Chemistry",
+      "Pharmacology"
+    ],
+    "photo": "https://i.pravatar.cc/400?img=68",
+    "bio": "Rithik Tatia is a Support Teacher at Aura Academia with 3+ years of teaching experience and a Master's degree in Pharmacology and Chemistry. Working closely with students in small groups, Rithik helps them strengthen core concepts, clear doubts quickly, and stay on track with their school and board exam preparation.",
+    "experience": 3,
+    "isAdmin": false,
+    "specializations": [
+      "Master's Degree in Pharmacology and Chemistry"
+    ],
+    "achievements": [
+      "3+ years of teaching and student support experience",
+      "Holds a Master's Degree in Pharmacology and Chemistry",
+      "Provides one-to-one doubt clearing and revision support"
     ]
   }
 ]

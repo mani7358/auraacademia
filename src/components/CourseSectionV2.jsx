@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Clock, BookOpen, CheckCircle } from 'lucide-react';
+import { ArrowRight, Clock, BookOpen, CheckCircle, Sparkles, Languages, TrendingUp, Briefcase, Calculator } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import coursesData from '../data/courses.json';
 
@@ -9,6 +9,14 @@ const cardColors = [
     { bg: 'from-blue-500 to-indigo-600',     text: 'text-blue-600',   light: 'bg-blue-50',    border: 'border-blue-100' },
     { bg: 'from-violet-500 to-purple-600',   text: 'text-violet-600', light: 'bg-violet-50',  border: 'border-violet-100' },
     { bg: 'from-orange-500 to-red-500',      text: 'text-orange-600', light: 'bg-orange-50',  border: 'border-orange-100' },
+];
+
+// New subjects announced but not yet open for enrolment
+const comingSoonSubjects = [
+    { name: 'French',            icon: <Languages size={22} />,  color: '#2563EB', desc: 'Grammar, comprehension, and speaking practice for school French.' },
+    { name: 'Economics',         icon: <TrendingUp size={22} />, color: '#059669', desc: 'Micro and macroeconomics concepts, graphs, and exam-focused answer writing.' },
+    { name: 'Business Studies',  icon: <Briefcase size={22} />,  color: '#7C3AED', desc: 'Management, marketing, and business environment explained through real examples.' },
+    { name: 'Accountancy',       icon: <Calculator size={22} />, color: '#D97706', desc: 'From journal entries to final accounts, with step-by-step board exam practice.' },
 ];
 
 const CourseSectionV2 = () => {
@@ -99,6 +107,63 @@ const CourseSectionV2 = () => {
                             );
                         })}
                     </motion.div>
+
+                {/* Coming soon subjects */}
+                <motion.div
+                    initial={{ opacity: 0, y: 16 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                    className="mt-14 rounded-3xl border border-amber-100 p-6 md:p-10 relative overflow-hidden"
+                    style={{ background: 'linear-gradient(135deg, #FFFBEB 0%, #F0FDF4 100%)' }}
+                >
+                    <div className="absolute -top-16 -right-16 w-56 h-56 rounded-full pointer-events-none"
+                        style={{ background: 'radial-gradient(circle, rgba(245,158,11,0.15) 0%, transparent 70%)' }} />
+
+                    <div className="relative z-10 flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
+                        <div>
+                            <span className="inline-flex items-center gap-1.5 bg-amber-100 text-amber-700 text-xs font-black uppercase tracking-widest px-3 py-1.5 rounded-full">
+                                <Sparkles size={12} />
+                                Coming Soon
+                            </span>
+                            <h3 className="text-2xl md:text-3xl font-black text-[#0A1628] mt-3">
+                                New Subjects Launching Soon
+                            </h3>
+                            <p className="text-gray-600 mt-2 max-w-2xl leading-relaxed">
+                                We're expanding beyond Mathematics and Science. French, Economics, Business Studies, and Accountancy classes are coming soon to Aura Academia, Sharjah.
+                            </p>
+                        </div>
+                        <Link
+                            to="/contact"
+                            className="shrink-0 inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-full font-bold text-sm transition-colors duration-300 shadow-lg shadow-amber-500/20"
+                        >
+                            Register Your Interest <ArrowRight size={15} />
+                        </Link>
+                    </div>
+
+                    <div className="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                        {comingSoonSubjects.map((subject) => (
+                            <div
+                                key={subject.name}
+                                className="bg-white rounded-2xl border border-gray-100 p-5 shadow-sm hover:shadow-md transition-shadow duration-300"
+                            >
+                                <div className="flex items-center justify-between mb-4">
+                                    <div
+                                        className="w-11 h-11 rounded-xl flex items-center justify-center"
+                                        style={{ backgroundColor: `${subject.color}15`, color: subject.color }}
+                                    >
+                                        {subject.icon}
+                                    </div>
+                                    <span className="text-[10px] font-black uppercase tracking-wider text-amber-700 bg-amber-50 border border-amber-200 px-2 py-1 rounded-full">
+                                        Coming Soon
+                                    </span>
+                                </div>
+                                <h4 className="font-black text-[#0A1628] mb-1.5">{subject.name}</h4>
+                                <p className="text-sm text-gray-500 leading-relaxed">{subject.desc}</p>
+                            </div>
+                        ))}
+                    </div>
+                </motion.div>
 
                 {/* Bottom CTA */}
                 <div className="mt-12 text-center">
