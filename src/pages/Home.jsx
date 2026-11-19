@@ -19,7 +19,7 @@ import portfolio1 from '../assets/portfolio-1.jpeg';
 import portfolio2 from '../assets/portfolio-2.jpeg';
 import founderImg from '../assets/auraacademiafounder.jpeg';
 import doctorateStage from '../assets/awards/dr-ishvarya-honorary-doctorate-stage.jpg';
-import doctoratePortrait from '../assets/awards/dr-ishvarya-honorary-doctorate-portrait.jpg';
+import doctorateSolo from '../assets/awards/dr-ishvarya-honorary-doctorate-solo.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -130,14 +130,14 @@ const founderSlides = [
         sub: 'Founder & Executive Director',
     },
     {
-        src: doctorateStage,
-        alt: 'Dr. Ishvarya Ramasubramanian receiving her Honorary Doctorate',
-        caption: 'Honorary Doctorate',
-        sub: 'Conferred by FEDA',
+        src: doctorateSolo,
+        alt: 'Dr. Ishvarya Ramasubramanian after receiving her Honorary Doctorate',
+        caption: 'Dr. Ishvarya Ramasubramanian',
+        sub: 'Honorary Doctorate · FEDA',
     },
     {
-        src: doctoratePortrait,
-        alt: 'Dr. Ishvarya Ramasubramanian at the Honorary Doctorate Conferment Ceremony',
+        src: doctorateStage,
+        alt: 'Dr. Ishvarya Ramasubramanian receiving her Honorary Doctorate on stage',
         caption: 'Doctorate Conferment',
         sub: 'Recognition for Excellence in Education',
     },
