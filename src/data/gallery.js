@@ -3,7 +3,6 @@ import awardStage from '../assets/awards/dr-ishvarya-honorary-doctorate-stage.jp
 import awardCeremony from '../assets/awards/honorary-doctorate-ceremony-feda.jpg';
 import awardGuests from '../assets/awards/honorary-doctorate-ceremony-guests.jpg';
 import tepaMeeting from '../assets/awards/tepa-meeting-amogh-arlekar.jpg';
-import tepaPoster from '../assets/awards/tepa-honoured-to-meet-amogh-arlekar.jpg';
 import news1 from '../assets/news1.jpeg';
 import news2 from '../assets/news2.jpeg';
 import event1 from '../assets/event1.jpeg';
@@ -42,13 +41,6 @@ const galleryData = [
         id: 'award-doctorate-guests',
         src: awardGuests,
         alt: 'Dr. Ishvarya Ramasubramanian with distinguished guests at the Honorary Doctorate ceremony',
-        type: 'image',
-        category: 'awards',
-    },
-    {
-        id: 'award-tepa-poster',
-        src: tepaPoster,
-        alt: "Honoured to meet Mr. Amogh Arlekar, son of the Governor of Tamil Nadu, His Excellency Shri Rajendra Vishwanath Arlekar, at TEPA with Dr. Ishvarya Ramasubramanian",
         type: 'image',
         category: 'awards',
     },
