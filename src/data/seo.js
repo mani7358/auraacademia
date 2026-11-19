@@ -57,7 +57,7 @@ export const organizationSchema = {
     telephone: '+971585755286',
     email: 'aurafirstscience@gmail.com',
     foundingDate: '2018',
-    founder: { '@type': 'Person', name: 'Ishvarya Ramasubramanian' },
+    founder: { '@type': 'Person', name: 'Dr. Ishvarya Ramasubramanian', honorificPrefix: 'Dr.', award: 'Honorary Doctorate, Federation of Economic Development Association (FEDA)' },
     address: centres[1].address,
     geo: centres[1].geo,
     openingHoursSpecification: openingHours,
@@ -79,7 +79,7 @@ export const pageSeo = {
     '/about': {
         name: 'About',
         title: 'About Aura Academia | Tuition Centre in Sharjah Since 2018',
-        description: 'Founded in 2018 by Ishvarya Ramasubramanian, Aura Academia has mentored 2,000+ students in Sharjah with concept-based teaching for CBSE, ICSE, IGCSE, JEE & NEET.',
+        description: 'Founded in 2018 by Dr. Ishvarya Ramasubramanian, Aura Academia has mentored 2,000+ students in Sharjah with concept-based teaching for CBSE, ICSE, IGCSE, JEE & NEET.',
         keywords: 'about aura academia, tuition centre sharjah, abushagara tuition, al nahda tuition',
         changefreq: 'monthly',
         priority: '0.8',

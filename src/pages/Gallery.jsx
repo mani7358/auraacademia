@@ -11,10 +11,11 @@ import galleryData from '../data/gallery.js';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const categories = ['All', 'News', 'Events'];
+const categories = ['All', 'Awards', 'News', 'Events'];
 
 const categoryColors = {
     'All':    '#059669',
+    'Awards': '#B45309',
     'News':   '#2563EB',
     'Events': '#D97706',
 };

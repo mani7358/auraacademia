@@ -96,12 +96,14 @@ KEAM (Kerala Engineering Architecture Medical entrance)
 FACULTY
 - Sharanya Senthil Prabhu | Administrator & Student Counsellor
   First point of contact for all admissions, counselling, and parent communication. Guides students and families through every step of their Aura journey.
-- Ishvarya | Medical Sciences & Chemistry | 15+ years experience | M.Sc. Chemistry, B.Ed.
+- Dr. Ishvarya Ramasubramanian | Founder | Medical Sciences & Chemistry | 15+ years experience | M.Sc. Chemistry, B.Ed. | Honorary Doctorate conferred by the Federation of Economic Development Association (FEDA)
   Expert in Organic Chemistry, Medical Sciences, and NEET Biology. Trained numerous NEET qualifiers with a concept-driven approach.
 - Shaik Shafee | Physics | 15+ years experience | M.Sc. Physics
   Renowned for making complex Physics concepts clear and exam-ready. Expert in JEE and NEET Physics preparation.
-- Raini Sreekanth | Mathematics | 15+ years experience | M.Sc. Mathematics
-  Highly accomplished Mathematics educator. Expert in Calculus, Algebra, JEE Mathematics, and A-Level Mathematics.
+- Gaurav Vinod Namjoshi | Higher Mathematics (Grades 9–12) & Extended Learning | 23+ years experience | M.Sc. Mathematics, B.Ed.
+  Mathematics for Grades 9–12 (CBSE, IGCSE & IB), Physics, competitive exams, quantitative aptitude, data interpretation and logical reasoning. 100% Board results for Grades 10 and 12 since 2013–14.
+- Yogeswari Natarajan | Foundation Mathematics (Grades 8–10) | 10 years experience (8 school + 2 as Assistant Professor) | M.Sc., M.Phil. Mathematics
+  Helps Grade 8–10 students build strong Mathematics foundations with simple, effective teaching methods.
 - Meena | Science | 7 years experience | B.Sc., B.Ed.
   Enthusiastic Science educator specialising in foundational Physics, Chemistry, and Biology for Grades 8–10.
 - Rithik Tatia | Support Teacher | 3+ years experience | Master's Degree in Pharmacology and Chemistry

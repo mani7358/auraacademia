@@ -50,10 +50,11 @@ const About = () => {
     ];
 
     const faculty = [
-        { name: 'Ishvarya', role: 'Medical Sciences & Chemistry', exp: '15+', bio: 'Expert in Medical Sciences and Chemistry. Her concept-driven approach has guided countless students to NEET and board exam success.', accent: '#2563EB', gradFrom: '#2563EB', gradTo: '#3B82F6' },
+        { name: 'Dr. Ishvarya Ramasubramanian', role: 'Founder · Medical Sciences & Chemistry', exp: '15+', bio: 'Honorary Doctorate recipient (FEDA) and expert in Medical Sciences and Chemistry. Her concept-driven approach has guided countless students to NEET and board exam success.', accent: '#2563EB', gradFrom: '#2563EB', gradTo: '#3B82F6' },
         { name: 'Sharanya Senthil Prabhu', role: 'Administrator & Student Counsellor', exp: null, bio: 'The heart of Aura Academia — guiding every student and family through their academic journey with care and expertise.', accent: '#D97706', gradFrom: '#D97706', gradTo: '#F59E0B' },
         { name: 'Shaik Shafee', role: 'Physics', exp: '15+', bio: 'Seasoned Physics educator renowned for turning abstract concepts into clear, exam-winning strategies for JEE, NEET, and board exams.', accent: '#7C3AED', gradFrom: '#7C3AED', gradTo: '#A78BFA' },
-        { name: 'Raini Sreekanth', role: 'Mathematics', exp: '15+', bio: 'Highly accomplished Mathematics educator with 15+ years of experience, guiding students through CBSE, JEE, and A-Level Mathematics.', accent: '#059669', gradFrom: '#059669', gradTo: '#10B981' },
+        { name: 'Gaurav Vinod Namjoshi', role: 'Higher Mathematics (Grades 9–12)', exp: '23+', bio: 'Mathematics educator and academic leader with 23+ years of experience, leading higher-grade and extended-learning Mathematics with consistent 100% board results.', accent: '#059669', gradFrom: '#059669', gradTo: '#10B981' },
+        { name: 'Yogeswari Natarajan', role: 'Foundation Mathematics (Grades 8–10)', exp: '10+', bio: 'M.Sc. and M.Phil. in Mathematics with 10 years of teaching, building strong Mathematics foundations for Grades 8, 9 and 10.', accent: '#16A34A', gradFrom: '#16A34A', gradTo: '#4ADE80' },
         { name: 'Meena', role: 'Science', exp: '10+', bio: 'Enthusiastic Science educator known for engaging, interactive methods that build strong foundational science understanding in students.', accent: '#0891B2', gradFrom: '#0891B2', gradTo: '#22D3EE' },
     ];
 
@@ -94,7 +95,7 @@ const About = () => {
                             </h2>
                             <div className="space-y-5 text-gray-600 text-lg leading-relaxed">
                                 <p>
-                                    Aura Academia was founded in 2018 by Ishvarya Ramasubramanian, a passionate educator with over 15 years of experience in Medical Science and Chemistry. Driven by a vision to transform the way students learn, she recognized a gap in the tutoring landscape, where many coaching centres relied heavily on rote learning instead of understanding each student's unique learning style and potential.
+                                    Aura Academia was founded in 2018 by Dr. Ishvarya Ramasubramanian, a passionate educator with over 15 years of experience in Medical Science and Chemistry, recently conferred an Honorary Doctorate by the Federation of Economic Development Association (FEDA). Driven by a vision to transform the way students learn, she recognized a gap in the tutoring landscape, where many coaching centres relied heavily on rote learning instead of understanding each student's unique learning style and potential.
                                 </p>
                                 <p>
                                     It started with just 15 students in a small facility in Abushagara, Sharjah. From the very beginning, the academy focused on personalized learning, concept-based teaching, exam-oriented strategies, and building genuine confidence in every student. This student-first approach laid the foundation for what Aura Academia has become today.
@@ -260,7 +261,7 @@ const About = () => {
                                             className="w-16 h-16 rounded-2xl border-4 border-white shadow-xl flex items-center justify-center text-white text-2xl font-black"
                                             style={{ backgroundColor: staff.accent }}
                                         >
-                                            {staff.name.charAt(0)}
+                                            {staff.name.replace(/^Dr\.\s*/, '').charAt(0)}
                                         </div>
                                     </div>
                                 </div>

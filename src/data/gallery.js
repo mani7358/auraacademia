@@ -1,3 +1,8 @@
+import awardPortrait from '../assets/awards/dr-ishvarya-honorary-doctorate-portrait.jpg';
+import awardStage from '../assets/awards/dr-ishvarya-honorary-doctorate-stage.jpg';
+import awardCeremony from '../assets/awards/honorary-doctorate-ceremony-feda.jpg';
+import awardGuests from '../assets/awards/honorary-doctorate-ceremony-guests.jpg';
+import tepaMeeting from '../assets/awards/tepa-meeting-amodh-arlekar.jpg';
 import news1 from '../assets/news1.jpeg';
 import news2 from '../assets/news2.jpeg';
 import event1 from '../assets/event1.jpeg';
@@ -11,6 +16,41 @@ import gallery5 from '../assets/gallery-5.jpeg';
 import gallery6 from '../assets/gallery-6.jpeg';
 
 const galleryData = [
+    {
+        id: 'award-doctorate-stage',
+        src: awardStage,
+        alt: 'Dr. Ishvarya Ramasubramanian receives her Honorary Doctorate from the Federation of Economic Development Association (FEDA)',
+        type: 'image',
+        category: 'awards',
+    },
+    {
+        id: 'award-doctorate-portrait',
+        src: awardPortrait,
+        alt: 'Dr. Ishvarya Ramasubramanian, Founder of Aura Academia, at the Honorary Doctorate Conferment Ceremony',
+        type: 'image',
+        category: 'awards',
+    },
+    {
+        id: 'award-doctorate-ceremony',
+        src: awardCeremony,
+        alt: 'FEDA Honorary Doctorate Conferment & Recognition Ceremony, with Dr. Ishvarya Ramasubramanian among the honourees',
+        type: 'image',
+        category: 'awards',
+    },
+    {
+        id: 'award-doctorate-guests',
+        src: awardGuests,
+        alt: 'Dr. Ishvarya Ramasubramanian with distinguished guests at the Honorary Doctorate ceremony',
+        type: 'image',
+        category: 'awards',
+    },
+    {
+        id: 'award-tepa-meeting',
+        src: tepaMeeting,
+        alt: "Dr. Ishvarya Ramasubramanian with Mr. Amodh Arlekar, son of His Excellency Shri Rajendra Arlekar, at the TEPA (Tamil Entrepreneurs & Professionals Associates UAE) meeting",
+        type: 'image',
+        category: 'awards',
+    },
     {
         id: 'gallery-1',
         src: news1,

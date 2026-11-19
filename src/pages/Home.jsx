@@ -18,6 +18,8 @@ import ShinyText from '../components/text/ShinyText';
 import portfolio1 from '../assets/portfolio-1.jpeg';
 import portfolio2 from '../assets/portfolio-2.jpeg';
 import founderImg from '../assets/auraacademiafounder.jpeg';
+import doctorateStage from '../assets/awards/dr-ishvarya-honorary-doctorate-stage.jpg';
+import doctoratePortrait from '../assets/awards/dr-ishvarya-honorary-doctorate-portrait.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -123,19 +125,31 @@ const features = [
 const founderSlides = [
     {
         src: founderImg,
-        alt: 'Ishvarya Ramasubramanian – Founder of Aura Academia',
-        caption: 'Ishvarya Ramasubramanian',
+        alt: 'Dr. Ishvarya Ramasubramanian – Founder of Aura Academia',
+        caption: 'Dr. Ishvarya Ramasubramanian',
         sub: 'Founder & Executive Director',
     },
     {
+        src: doctorateStage,
+        alt: 'Dr. Ishvarya Ramasubramanian receiving her Honorary Doctorate',
+        caption: 'Honorary Doctorate',
+        sub: 'Conferred by FEDA',
+    },
+    {
+        src: doctoratePortrait,
+        alt: 'Dr. Ishvarya Ramasubramanian at the Honorary Doctorate Conferment Ceremony',
+        caption: 'Doctorate Conferment',
+        sub: 'Recognition for Excellence in Education',
+    },
+    {
         src: portfolio1,
-        alt: 'Ishvarya Ramasubramanian receiving recognition',
+        alt: 'Dr. Ishvarya Ramasubramanian receiving recognition',
         caption: 'Academic Excellence',
         sub: 'Founder\'s Achievement',
     },
     {
         src: portfolio2,
-        alt: 'Ishvarya Ramasubramanian award',
+        alt: 'Dr. Ishvarya Ramasubramanian award',
         caption: 'Professional Recognition',
         sub: 'Excellence in Education',
     },
@@ -506,12 +520,20 @@ const Home = () => {
                                         "At Aura Academia, we believe every child has the potential to touch the stars. Our mission is to provide the wings they need to get there."
                                     </p>
                                     <p>
-                                        Founded by <span className="text-[#0A1628] font-black">Ishvarya Ramasubramanian</span>, a distinguished scholar with a
+                                        Founded by <span className="text-[#0A1628] font-black">Dr. Ishvarya Ramasubramanian</span>, a distinguished scholar with a
                                         <span className="text-emerald-700 font-bold"> PhD in Medical Sciences</span> and a recipient of multiple
                                         <span className="text-emerald-700 font-bold"> Gold Medals</span> for academic brilliance.
                                     </p>
+                                    <p className="flex items-start gap-3 rounded-2xl border border-amber-200 bg-amber-50 px-5 py-4 text-base">
+                                        <span className="text-2xl leading-none" aria-hidden="true">🎓</span>
+                                        <span>
+                                            <span className="font-black text-[#0A1628]">Honorary Doctorate.</span>{' '}
+                                            Dr. Ishvarya was recently conferred an Honorary Doctorate by the Federation of Economic Development Association (FEDA) in recognition of her contribution to education.{' '}
+                                            <Link to="/gallery" className="font-bold text-amber-700 underline underline-offset-2">See the ceremony</Link>
+                                        </span>
+                                    </p>
                                     <p>
-                                        With a profound understanding of educational psychology and subject mastery, Ishvarya Ramasubramanian established this hub to move beyond rote learning toward true academic brilliance. Her vision ensures that Aura Academia isn't just an academic hub, but a sanctuary for curious minds to flourish and excel.
+                                        With a profound understanding of educational psychology and subject mastery, Dr. Ishvarya Ramasubramanian established this hub to move beyond rote learning toward true academic brilliance. Her vision ensures that Aura Academia isn't just an academic hub, but a sanctuary for curious minds to flourish and excel.
                                     </p>
                                 </div>
 
@@ -519,7 +541,7 @@ const Home = () => {
                                 <div className="flex items-center gap-4 pt-6 border-t border-gray-100">
                                     <div className="w-12 h-px bg-emerald-500 hidden sm:block" />
                                     <div>
-                                        <p className="text-xl font-black text-[#0A1628]">Ishvarya Ramasubramanian</p>
+                                        <p className="text-xl font-black text-[#0A1628]">Dr. Ishvarya Ramasubramanian</p>
                                         <p className="text-emerald-600 font-bold text-sm tracking-widest uppercase">Founder & Executive Director</p>
                                     </div>
                                 </div>

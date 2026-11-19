@@ -68,7 +68,7 @@ const Faculty = () => {
 
                                                 {/* Monogram */}
                                                 <div className="relative z-10 w-20 h-20 rounded-2xl bg-white/20 border-2 border-white/40 flex items-center justify-center text-white text-4xl font-black mb-4 shadow-xl group-hover:scale-105 transition-transform duration-300">
-                                                    {faculty.name.charAt(0)}
+                                                    {faculty.name.replace(/^Dr\.\s*/, '').charAt(0)}
                                                 </div>
 
                                                 <h3 className="relative z-10 text-xl font-black text-white mb-1">{faculty.name}</h3>
@@ -153,7 +153,7 @@ const Faculty = () => {
 
                                                 {/* Monogram */}
                                                 <div className="relative z-10 w-20 h-20 rounded-2xl bg-white/20 border-2 border-white/40 flex items-center justify-center text-white text-4xl font-black mb-4 shadow-xl group-hover:scale-105 transition-transform duration-300">
-                                                    {faculty.name.charAt(0)}
+                                                    {faculty.name.replace(/^Dr\.\s*/, '').charAt(0)}
                                                 </div>
 
                                                 <h3 className="relative z-10 text-xl font-black text-white mb-1">{faculty.name}</h3>

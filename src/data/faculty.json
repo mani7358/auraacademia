@@ -1,7 +1,7 @@
 [
   {
     "id": "ishvarya",
-    "name": "Ishvarya Ramasubramanian",
+    "name": "Dr. Ishvarya Ramasubramanian",
     "role": "Expert in Medical Sciences & Chemistry",
     "subjects": [
       "Chemistry",
@@ -9,7 +9,7 @@
       "Medical Sciences"
     ],
     "photo": "https://i.pravatar.cc/400?img=25",
-    "bio": "Ishvarya is a highly experienced educator specialising in Medical Sciences and Chemistry. With 15+ years of teaching expertise, she has guided countless students to success in NEET and board examinations through her clear, concept-driven approach. Her visual-learning methods make complex biochemistry and organic chemistry both engaging and exam-ready.",
+    "bio": "Dr. Ishvarya Ramasubramanian, founder of Aura Academia, is a highly experienced educator specialising in Medical Sciences and Chemistry. With 15+ years of teaching expertise, she has guided countless students to success in NEET and board examinations through her clear, concept-driven approach. Her visual-learning methods make complex biochemistry and organic chemistry both engaging and exam-ready. In recognition of her contribution to education, she was conferred an Honorary Doctorate by the Federation of Economic Development Association (FEDA).",
     "experience": 15,
     "isAdmin": false,
     "specializations": [
@@ -19,6 +19,7 @@
       "CBSE Board Preparation"
     ],
     "achievements": [
+      "Honorary Doctorate conferred by the Federation of Economic Development Association (FEDA)",
       "15+ years of teaching excellence in Chemistry and Biology",
       "Trained numerous NEET qualifiers",
       "Expert in Medical Sciences and Chemistry education"
@@ -72,27 +73,56 @@
     ]
   },
   {
-    "id": "raini",
-    "name": "Raini Sreekanth",
-    "role": "Expert in Mathematics",
+    "id": "gaurav",
+    "name": "Gaurav Vinod Namjoshi",
+    "role": "Expert in Higher Mathematics (Grades 9–12) & Extended Learning",
     "subjects": [
       "Mathematics",
-      "Statistics"
+      "Physics",
+      "Quantitative Aptitude"
     ],
-    "photo": "https://i.pravatar.cc/400?img=12",
-    "bio": "Raini Sreekanth is a highly accomplished Mathematics educator with over 15 years of experience. His rigorous yet approachable teaching style and masterful command of mathematical concepts make him an exceptional guide for students at all levels — from CBSE and ICSE board examinations to JEE and A-Level Mathematics.",
-    "experience": 15,
+    "photo": "https://i.pravatar.cc/400?img=13",
+    "bio": "Gaurav Vinod Namjoshi is a highly experienced Mathematics educator and academic leader with over 23 years in teaching, curriculum development and student mentoring. He currently heads a Mathematics department for Grades 9–12 and holds an M.Sc. in Mathematics and a Bachelor of Education (B.Ed.). At Aura Academia he leads higher-grade and extended-learning Mathematics, simplifying complex concepts, building analytical thinking and helping students achieve academic excellence through innovative, student-centric teaching.",
+    "experience": 23,
     "isAdmin": false,
     "specializations": [
-      "Calculus",
-      "Algebra",
-      "JEE Mathematics",
-      "A-Level Mathematics"
+      "Mathematics for Grades 9–12 (CBSE, IGCSE & IB)",
+      "Physics for Secondary School",
+      "Competitive Exams & Quantitative Aptitude",
+      "Data Interpretation & Logical Reasoning",
+      "Concept-Based Learning & Advanced Problem-Solving",
+      "Board Exam Preparation",
+      "STEM Education & Career Guidance"
     ],
     "achievements": [
-      "15+ years of Mathematics teaching excellence",
-      "Proven track record in board and competitive exam results",
-      "Expert in JEE and A-Level Mathematics strategies"
+      "23+ years in teaching, academic leadership and educational management",
+      "Consistently achieved 100% Board Examination results for Grades 10 and 12 since 2013–14",
+      "Mentored students into prestigious Medical and Engineering colleges in India (an average of 5 per batch, 2014–2025)",
+      "Guided an average of 6 students per batch into leading Law colleges, including National Law Universities",
+      "Mentored a student who qualified through the SAT and completed Engineering at Troy University, USA",
+      "Developed Mathematics coursebooks, worksheets and structured learning resources for Grades 8–12"
+    ]
+  },
+  {
+    "id": "yogeswari",
+    "name": "Yogeswari Natarajan",
+    "role": "Expert in Foundation Mathematics (Grades 8–10)",
+    "subjects": [
+      "Mathematics"
+    ],
+    "photo": "https://i.pravatar.cc/400?img=44",
+    "bio": "Yogeswari Natarajan is a Mathematics tutor with an M.Sc. and M.Phil. in Mathematics and 10 years of teaching experience, including 8 years in school academics and 2 years as an Assistant Professor. She leads foundation Mathematics for Grades 8, 9 and 10 at Aura Academia and is passionate about helping students understand Mathematics through simple and effective teaching methods.",
+    "experience": 10,
+    "isAdmin": false,
+    "specializations": [
+      "Foundation Mathematics",
+      "Grades 8–10",
+      "Concept Building"
+    ],
+    "achievements": [
+      "8 years of experience in school academics in Mathematics",
+      "2 years of experience as an Assistant Professor",
+      "Helped students improve their mathematical skills and academic performance"
     ]
   },
   {
