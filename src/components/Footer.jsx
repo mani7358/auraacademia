@@ -93,8 +93,8 @@ const Footer = () => {
                             Sharjah's premier tuition centre, empowering students to achieve academic excellence through personalised learning since 2018.
                         </p>
                         <p className="text-gray-500 text-xs leading-relaxed mb-6 -mt-3">
-                            Operated by <span className="text-gray-300 font-semibold">{LEGAL_NAME}</span>{' '}
-                            <span dir="rtl" lang="ar">({LEGAL_NAME_AR})</span><br />
+                            Operated by <span className="text-gray-300 font-semibold">{LEGAL_NAME}</span>
+                            <span dir="rtl" lang="ar" className="block w-fit text-gray-400 text-sm my-0.5">{LEGAL_NAME_AR}</span>
                             Sharjah SEDD Licence No. {LICENSE_NO}
                         </p>
 
@@ -201,8 +201,8 @@ const Footer = () => {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col md:flex-row justify-between items-center gap-3">
                     <p className="text-gray-600 text-xs">
                         &copy; {currentYear} Aura Academia, {LEGAL_NAME}. All rights reserved. Sharjah, UAE. Licence No. {LICENSE_NO}. Designed and Developed by{' '}
-                        <a href="https://wynstack.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                            WynStack
+                        <a href="https://bluetickmedia.ae/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                            Bluetick Media
                         </a>
                     </p>
                     <div className="flex gap-5 text-xs text-gray-600">
