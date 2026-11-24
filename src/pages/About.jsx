@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import PageHero from '../components/PageHero';
 import SectionHeader from '../components/SectionHeader';
 import SEO from '../components/SEO';
+import { LEGAL_NAME, LICENSE_NO } from '../data/seo';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -95,7 +96,7 @@ const About = () => {
                             </h2>
                             <div className="space-y-5 text-gray-600 text-lg leading-relaxed">
                                 <p>
-                                    Aura Academia was founded in 2018 by Dr. Ishvarya Ramasubramanian, a passionate educator with over 15 years of experience in Medical Science and Chemistry, recently conferred an Honorary Doctorate by the Federation of Economic Development Association (FEDA). Driven by a vision to transform the way students learn, she recognized a gap in the tutoring landscape, where many coaching centres relied heavily on rote learning instead of understanding each student's unique learning style and potential.
+                                    Aura Academia (officially licensed in Sharjah as {LEGAL_NAME}, SEDD Licence No. {LICENSE_NO}) was founded in 2018 by Dr. Ishvarya Ramasubramanian, a passionate educator with over 15 years of experience in Medical Science and Chemistry, recently conferred an Honorary Doctorate by the Federation of Economic Development Association (FEDA). Driven by a vision to transform the way students learn, she recognized a gap in the tutoring landscape, where many coaching centres relied heavily on rote learning instead of understanding each student's unique learning style and potential.
                                 </p>
                                 <p>
                                     It started with just 15 students in a small facility in Abushagara, Sharjah. From the very beginning, the academy focused on personalized learning, concept-based teaching, exam-oriented strategies, and building genuine confidence in every student. This student-first approach laid the foundation for what Aura Academia has become today.

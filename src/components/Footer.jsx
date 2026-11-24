@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Facebook, Instagram, Youtube, Linkedin, ArrowRight, MapPin, Phone, Mail, Clock } from 'lucide-react';
 import logo from '../assets/Aura-logo.png';
+import { LEGAL_NAME, LEGAL_NAME_AR, LICENSE_NO } from '../data/seo';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -90,6 +91,11 @@ const Footer = () => {
                         </Link>
                         <p className="text-gray-500 text-sm leading-relaxed mb-6">
                             Sharjah's premier tuition centre, empowering students to achieve academic excellence through personalised learning since 2018.
+                        </p>
+                        <p className="text-gray-500 text-xs leading-relaxed mb-6 -mt-3">
+                            Operated by <span className="text-gray-300 font-semibold">{LEGAL_NAME}</span>{' '}
+                            <span dir="rtl" lang="ar">({LEGAL_NAME_AR})</span><br />
+                            Sharjah SEDD Licence No. {LICENSE_NO}
                         </p>
 
                         <div className="flex gap-2">
@@ -194,13 +200,13 @@ const Footer = () => {
             <div className="border-t border-white/8">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col md:flex-row justify-between items-center gap-3">
                     <p className="text-gray-600 text-xs">
-                        &copy; {currentYear} Aura Academia. All rights reserved. Sharjah, UAE. Designed and Developed by{' '}
+                        &copy; {currentYear} Aura Academia, {LEGAL_NAME}. All rights reserved. Sharjah, UAE. Licence No. {LICENSE_NO}. Designed and Developed by{' '}
                         <a href="https://wynstack.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                             WynStack
                         </a>
                     </p>
                     <div className="flex gap-5 text-xs text-gray-600">
-                        <Link to="#" className="hover:text-white transition-colors">Privacy Policy</Link>
+                        <a href="/privacy-policy/" className="hover:text-white transition-colors">Privacy Policy</a>
                         <Link to="#" className="hover:text-white transition-colors">Terms of Service</Link>
                     </div>
                 </div>

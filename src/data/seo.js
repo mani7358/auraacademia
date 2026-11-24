@@ -4,6 +4,10 @@
 
 export const SITE_URL = 'https://aurafirstscience.com';
 export const SITE_NAME = 'Aura Academia';
+// Official trade name on the Sharjah (SEDD) professional licence.
+export const LEGAL_NAME = 'AL ILOOM AL AWAL TRAINING CENTER';
+export const LEGAL_NAME_AR = 'مركز العلوم الاولي للتدريب';
+export const LICENSE_NO = '940961';
 export const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
 
 const ORG_ID = `${SITE_URL}/#organization`;
@@ -49,8 +53,11 @@ export const organizationSchema = {
     '@type': ['EducationalOrganization', 'LocalBusiness'],
     '@id': ORG_ID,
     name: SITE_NAME,
+    legalName: LEGAL_NAME,
+    alternateName: [LEGAL_NAME, LEGAL_NAME_AR],
+    identifier: { '@type': 'PropertyValue', name: 'Sharjah Economic Development Department (SEDD) licence', value: LICENSE_NO },
     slogan: 'An academic hub to gear up beyond block excellence.',
-    description: 'Tuition centre in Sharjah, UAE offering CBSE, ICSE, IGCSE, AS & A Level coaching for Grades 8–12, plus JEE, NEET and KEAM entrance exam preparation.',
+    description: 'Aura Academia (AL ILOOM AL AWAL TRAINING CENTER) is a tuition centre in Sharjah, UAE offering CBSE, ICSE, IGCSE, AS & A Level coaching for Grades 8–12, plus JEE, NEET and KEAM entrance exam preparation.',
     url: SITE_URL,
     logo: `${SITE_URL}/logo.png`,
     image: DEFAULT_IMAGE,

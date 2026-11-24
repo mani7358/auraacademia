@@ -7,6 +7,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import PageHero from '../components/PageHero';
 import SEO from '../components/SEO';
+import { LEGAL_NAME, LICENSE_NO } from '../data/seo';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -82,6 +83,7 @@ const Contact = () => {
                         <p className="text-emerald-400 font-bold text-xs mb-0.5">Centre 2 — Abushagara</p>
                         <p>16, First Floor, City Tower,<br />Near Viva Super Market,<br />Abushagara, Sharjah, UAE</p>
                     </div>
+                    <p className="text-gray-500 text-xs pt-1">Licensed as <span className="text-gray-300 font-semibold">{LEGAL_NAME}</span>, Sharjah SEDD Licence No. {LICENSE_NO}</p>
                 </div>
             ),
             bg: '#059669',
